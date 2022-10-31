@@ -1,0 +1,49 @@
+#hero{
+    color: white;
+    height: 300px;
+    background: linear-gradient(#192159, #1C2465);
+}
+
+
+.header{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #202A60;
+}
+
+nav ul{
+   display: flex; 
+   list-style: none;
+   gap: 48px;
+   font-weight: 400;
+   line-height: 20px;
+   font-size: .6em;
+}
+
+
+.active{
+    position: relative;
+}
+
+.active::before{
+content: '';
+display: block;
+position: absolute;
+bottom:-26px;
+width: 100%;
+height: 1px;
+background-color:white;
+border-radius: 10px;
+}
+
+
+#humb{
+    display: none;
+}
+
+#humb img{
+width: 30px;
+height: 30px;
+}

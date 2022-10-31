@@ -1,0 +1,24 @@
+@import "./fonts";
+@import "./hero";
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Graphik';
+    font-size: 24px;
+    overflow-y:hidden;
+}
+
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+//    border: 1px solid red;
+    padding: 0px 50px;
+}
+
+
+
+@import "./adaptive";
