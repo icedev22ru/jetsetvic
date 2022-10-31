@@ -77,18 +77,24 @@
 
 
 @media screen and(max-width:900px) {
+    .hero_title{
+        width: auto;
+    }
     .hero_title  h1{
         text-align: center;
     }
 
     .hero_title p{
-        font-size: 0.6em;
+        font-size: 0.7em;
         width: 100%;
         text-align: center;
     }
 
     .hero_wrapper{
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
     }
 
     .white_button{
