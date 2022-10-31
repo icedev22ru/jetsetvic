@@ -89,7 +89,7 @@ nav ul {
   margin-top: 30px;
   line-height: 50px;
   font-weight: normal;
-  width: 729px;
+  width: 850px;
 }
 .hero_title button {
   margin-top: 100px;
@@ -142,6 +142,7 @@ h1 {
 p {
   padding: 0px;
   margin: 0px;
+  font-size: 1.3em;
   font-weight: 500;
 }
 
