@@ -198,4 +198,15 @@ p {
     max-width: 570px;
     line-height: 40px;
   }
+}
+@media screen and (max-width: 1025px) {
+  .hero_title h1 {
+    font-size: 1.2em;
+    max-width: 430px;
+  }
+  .hero_title p {
+    font-size: 0.7em;
+    max-width: 460px;
+    line-height: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
