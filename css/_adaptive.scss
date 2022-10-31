@@ -19,3 +19,23 @@
    }
 
 }
+
+
+@media screen and (max-width:1650px) {
+
+    .hero_image img{
+        width: 110%;
+    }
+
+    .hero_title h1{
+        font-size: 1.8em;
+        max-width: 600px;
+    }
+
+    p{
+        font-size: 1em;
+        max-width: 650px;
+    }
+   
+
+}
