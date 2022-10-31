@@ -95,6 +95,10 @@ nav ul {
   margin-top: 100px;
 }
 
+.hero_image {
+  text-align: right;
+}
+
 .white_button {
   display: block;
   position: relative;
@@ -103,7 +107,7 @@ nav ul {
   background-color: white;
   font-size: 1em;
   color: #1D2265;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 33px;
   padding: 15px 35px;
 }
