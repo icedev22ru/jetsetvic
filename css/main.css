@@ -95,4 +95,8 @@ body {
   nav {
     display: none;
   }
+  .logo img {
+    width: 56px;
+    height: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
