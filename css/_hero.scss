@@ -1,7 +1,16 @@
+$mainAccientColor: #1D2265;
+
 #hero{
+    position: relative;
+    max-width: 100%;
     color: white;
-    height: 300px;
-    background: linear-gradient(#192159, #1C2465);
+    background-color: #192159;
+    //background: linear-gradient(#192159, #1C2465);
+    padding-bottom: 250px;
+    background-image: url('../assets/images/wawes.webp');
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 
@@ -44,6 +53,56 @@ border-radius: 10px;
 }
 
 #humb img{
-width: 30px;
-height: 30px;
+width: 24px;
+height: 24px;
+}
+
+
+.hero_wrapper{
+display: flex;
+margin-top: 100px;
+justify-content: space-between;
+align-items: center;
+}
+
+.hero_title{
+    width:880px;
+    p{
+        margin-top: 30px;
+        line-height: 50px;
+        font-weight: normal;
+        width: 729px;
+    }
+    button{
+        margin-top: 100px;
+    }
+}
+
+.white_button{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    font-size: 1em;
+    color: $mainAccientColor;
+    font-weight: 500;
+    border-radius: 33px;
+    padding: 15px 35px;
+    img{
+        margin-left: 10px;
+        vertical-align: middle;
+        width: 26px;
+        height: 26px;
+    }
+}
+
+
+.wawes{
+    position: absolute;   
+    z-index: 2;
+    width: 100%;
+    height: 300px;
+    bottom: 0px;
+   
 }

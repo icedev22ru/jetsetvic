@@ -8,8 +8,17 @@ body{
     box-sizing: border-box;
     font-family: 'Graphik';
     font-size: 24px;
-    overflow-y:hidden;
+    overflow-x:hidden;
 }
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 2.8em;
+}
+
+p{ padding: 0px; margin: 0px; font-weight: 500;}
 
 
 .container{
