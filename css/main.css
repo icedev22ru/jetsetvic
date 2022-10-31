@@ -176,7 +176,7 @@ p {
   }
 }
 @media screen and (max-width: 1650px) {
-  .hero_image > img {
+  .hero_image > object {
     width: 95%;
   }
   .hero_title h1 {
@@ -240,13 +240,13 @@ p {
     margin: 0 auto;
     margin-top: 50px;
   }
-  .hero_image > img {
+  .hero_image > object {
     margin-top: 30px;
   }
   .hero_image {
     text-align: center;
   }
-  .hero_image > img {
+  .hero_image > object {
     width: 65%;
   }
 }/*# sourceMappingURL=main.css.map */
