@@ -183,4 +183,19 @@ p {
     font-size: 1em;
     max-width: 650px;
   }
+  .white_button {
+    font-size: 0.8em;
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .hero_title h1 {
+    font-size: 1.6em;
+    max-width: 600px;
+  }
+  .hero_title p {
+    font-size: 0.8em;
+    max-width: 570px;
+    line-height: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
