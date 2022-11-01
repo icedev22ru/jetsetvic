@@ -130,6 +130,60 @@ nav ul {
   bottom: 0px;
 }
 
+#tokenization {
+  color: #202A60;
+}
+
+.tokenization_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tokl p {
+  max-width: 800px;
+}
+.tokl ul {
+  font-size: 1em;
+  font-weight: 300;
+  max-width: 774px;
+  margin-top: 40px;
+  padding: 0px 23px;
+}
+.tokl ul li {
+  padding: 15px 15px;
+  line-height: 125%;
+}
+.tokl button {
+  margin-top: 80px;
+}
+
+.tokr {
+  text-align: right;
+}
+.tokr img {
+  width: 100%;
+}
+
+.blue_button {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  border: none;
+  background-color: #202A60;
+  font-size: 1em;
+  color: white;
+  font-weight: 600;
+  border-radius: 33px;
+  padding: 15px 35px;
+}
+.blue_button img {
+  margin-left: 10px;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -147,11 +201,21 @@ h1 {
   font-size: 2.8em;
 }
 
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
 p {
   padding: 0px;
   margin: 0px;
   font-size: 1.3em;
   font-weight: 500;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
