@@ -453,6 +453,9 @@ ul {
   .tokl p {
     max-width: 100%;
   }
+  .tokl ul {
+    text-align: left;
+  }
   .slide_hide {
     display: block;
   }
