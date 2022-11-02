@@ -347,6 +347,8 @@ nav ul {
 .post_image img {
   -o-object-fit: contain;
      object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .post__date {
@@ -769,5 +771,10 @@ ul {
   .post_image img {
     display: block;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 431px) {
+  .post_container {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
