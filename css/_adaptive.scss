@@ -331,4 +331,17 @@
     .fotterl{
         margin-top: 37px;
     }
+
+
+    .post_item{
+        flex-direction: column;
+    }
+
+    .post_image{
+        transform: translateY(-60px);
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
 }

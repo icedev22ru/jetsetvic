@@ -4,6 +4,7 @@
 @import "./smartplace";
 @import "./vault";
 @import "./blog";
+@import "./footer";
 
 
 body{
@@ -27,6 +28,13 @@ h2{
     
     font-size: 2em;
     font-weight: 500;
+}
+
+h3{
+    font-size: 1.16em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
 }
 
 

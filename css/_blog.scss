@@ -1,72 +1,66 @@
-#footer {
-    position: relative;
-    max-width: 100%;
-    color: white;
-    background-color: #192159;
-    padding-top: 260px;
-    padding-bottom: 80px;
-    background-image: url('../assets/images/wave2.webp');
+#blog{
+    position:relative;
+    background-image: url('../assets/images/blog_wawe.svg');
     background-size: 100%;
-    background-position-y:-10px;
     background-repeat: no-repeat;
+    background-position: top;
+    padding: 200px 0px;
+    color: $mainAccientColor;
+}
 
+.blog_wrapper{
     h2{
         text-align: center;
     }
 }
 
+.post_container{
+    width: 95%;
+    margin: 0 auto;
+}
 
-
-
-.footer_wrapper{
+.post_item{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 42px;
 }
 
-.fotterl{
- font-size: 14px;   
- font-weight: 300;
+.post_image{
+    transform: translatex(-80px);
+    img{
+        object-fit: contain;
+    }
 }
 
-
-.fotterr{
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer_nav{
-    font-weight: 500;
+.post__date{
+    color: #BABABA;
     font-size: 14px;
-    list-style: none;
-    display: block;
-    opacity: 0.8;
-    margin-left: 100px;
-    li{
-        padding: 8px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.post__title{
+    p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 175%;
+        padding: 25px 0px 60px 0px;
+        
     }
 }
 
-.footer_nav li:nth-child(1){
-    font-size: 18px;
-}
 
-.footer_icons{
-    margin-left: 26px;
-}
-
-.copy{
-    margin-top: 10px;
-}
-
-.footer_social{
+.link_button{
+    text-decoration: none;
+    background-color: $mainAccientColor;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 34px;
+    color: white;
+    font-size: 20px;
     font-weight: 500;
-    font-size: 18px;
-    list-style: none;
-    display: block;
-    opacity: 0.8;
-    margin-left: 100px;
-    li{
-        padding: 8px;
-    }
 }
