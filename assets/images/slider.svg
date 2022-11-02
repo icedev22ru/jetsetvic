@@ -1,7 +1,7 @@
-<svg width="224" height="7" viewBox="0 0 224 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="28" height="7" rx="3.5" fill="white" fill-opacity="0.31"/>
-<path d="M115.5 3.5C115.5 1.567 117.067 0 119 0H140C141.933 0 143.5 1.567 143.5 3.5C143.5 5.433 141.933 7 140 7H119C117.067 7 115.5 5.433 115.5 3.5Z" fill="white" fill-opacity="0.31"/>
-<rect x="40.25" width="63" height="7" rx="3.5" fill="white"/>
-<rect x="155.75" width="28" height="7" rx="3.5" fill="white" fill-opacity="0.31"/>
-<rect x="196" width="28" height="7" rx="3.5" fill="white" fill-opacity="0.31"/>
+<svg width="149" height="5" viewBox="0 0 149 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="19" height="5" rx="2.5" fill="#182056" fill-opacity="0.31"/>
+<path d="M77 2.5C77 1.11929 78.1193 0 79.5 0H92.5C93.8807 0 95 1.11929 95 2.5C95 3.88071 93.8807 5 92.5 5H79.5C78.1193 5 77 3.88071 77 2.5Z" fill="#182056" fill-opacity="0.31"/>
+<rect x="27" width="42" height="5" rx="2.5" fill="#182056"/>
+<rect x="104" width="18" height="5" rx="2.5" fill="#182056" fill-opacity="0.31"/>
+<rect x="130" width="19" height="5" rx="2.5" fill="#182056" fill-opacity="0.31"/>
 </svg>
