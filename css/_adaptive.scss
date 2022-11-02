@@ -1,26 +1,4 @@
 
-  @media screen and (max-width:768px) {
-
-    .container{
-        padding: 0px 15px;
-    }
-
-   #humb{
-    display: block;
-   }
-
-   nav{
-    display: none;
-   }
-
-   .logo img{
-    width: 67px;
-    height: 17px;
-   }
-
-}
-
-
 @media screen and (max-width:1650px) {
 
     .hero_image > object{
@@ -57,6 +35,22 @@
         max-width: 570px;
         line-height: 40px;
     }
+
+
+    .tokl h2{
+        font-size: 1.3em;
+        max-width: 600px;
+    }
+
+    .tokl p{
+        font-size: 0.8em;
+        max-width: 570px;
+        line-height: 40px;
+    }
+
+    .tokl ul{
+    font-size: 0.8em;
+    }
 }
 
 
@@ -72,11 +66,45 @@
         line-height: 30px;
     }
 
+    .tokl h2{
+        font-size: 1.3em;
+        max-width: 600px;
+    }
+
+    .tokl p{
+        font-size: 0.8em;
+        max-width: 570px;
+        line-height: 40px;
+    }
+
+    .tokl ul{
+    font-size: 0.7em;
+    }
   
 }
 
 
 @media screen and(max-width:900px) {
+
+
+    .container{
+        padding: 0px 15px;
+    }
+
+   #humb{
+    display: block;
+   }
+
+   nav{
+    display: none;
+   }
+
+   .logo img{
+    width: 67px;
+    height: 17px;
+   }
+
+
     .hero_title{
         width: auto;
     }
@@ -119,5 +147,37 @@
        width: 85%;
     }
     
+
+    .tokenization_wrapper{
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .tokl{
+    text-align: center;
+    
+    button{
+        margin: 60px auto;
+    }
+    .slide_hide img{
+        width: 95%;
+     }
+     h2{
+        max-width: 100%;
+     }
+     p{
+        max-width: 100%;
+     }
+
+    }
+
+    .slide_hide{
+        display: block;
+    }
+
+    .tokr{
+        display: none;
+    }
 
 }
