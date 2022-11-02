@@ -668,7 +668,7 @@ ul {
   }
   .items-gird {
     grid-template-columns: auto auto;
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .items-gird .gird-item img {
     display: block;
