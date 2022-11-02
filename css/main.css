@@ -279,7 +279,7 @@ nav ul {
 
 #vault {
   color: #1D2265;
-  padding: 100px 0px;
+  padding: 80px 0px;
 }
 
 .vault_wrapper {
@@ -317,6 +317,74 @@ nav ul {
   margin-right: 28px;
 }
 
+#footer {
+  position: relative;
+  max-width: 100%;
+  color: white;
+  background-color: #192159;
+  padding-top: 260px;
+  padding-bottom: 80px;
+  background-image: url("../assets/images/wave2.webp");
+  background-size: 100%;
+  background-position-y: -10px;
+  background-repeat: no-repeat;
+}
+#footer h2 {
+  text-align: center;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fotterl {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.fotterr {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer_nav {
+  font-weight: 500;
+  font-size: 14px;
+  list-style: none;
+  display: block;
+  opacity: 0.8;
+  margin-left: 100px;
+}
+.footer_nav li {
+  padding: 8px;
+}
+
+.footer_nav li:nth-child(1) {
+  font-size: 18px;
+}
+
+.footer_icons {
+  margin-left: 26px;
+}
+
+.copy {
+  margin-top: 10px;
+}
+
+.footer_social {
+  font-weight: 500;
+  font-size: 18px;
+  list-style: none;
+  display: block;
+  opacity: 0.8;
+  margin-left: 100px;
+}
+.footer_social li {
+  padding: 8px;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -336,6 +404,13 @@ h1 {
 
 h2 {
   font-size: 2em;
+  font-weight: 500;
+}
+
+h5 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 0.7em;
   font-weight: 500;
 }
 
@@ -380,6 +455,16 @@ ul {
   .white_button {
     font-size: 0.8em;
     padding: 15px 30px;
+  }
+  .footer_nav {
+    font-size: 12px;
+    margin-right: -80px;
+  }
+  .footer_nav a {
+    margin-right: -88px;
+  }
+  .footer_nav li:nth-child(1) {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1275px) {
@@ -471,6 +556,16 @@ ul {
     font-size: 0.5em;
     grid-column-gap: 50px;
   }
+  .footer_nav {
+    font-size: 10px;
+    margin-right: -90px;
+  }
+  .footer_nav a {
+    margin-right: -88px;
+  }
+  .footer_nav li:nth-child(1) {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 900px) {
   .container {
@@ -552,8 +647,52 @@ ul {
     flex-wrap: wrap-reverse;
     justify-content: center;
   }
+  .smartr {
+    text-align: center;
+  }
+  .smartl .blue_button {
+    margin: 0 auto;
+  }
   .vault_wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .vaultl {
+    text-align: center;
+  }
+  .vaultl button {
+    margin: 80px auto;
+  }
+  .vaultr {
+    display: none;
+  }
+  .items-gird {
+    grid-template-columns: auto auto;
+    font-size: 0.7em;
+  }
+  .items-gird .gird-item img {
+    display: block;
+    margin: 30px auto;
+  }
+  #footer {
+    padding: 102px 0px 51px 0px;
+  }
+  .footer_wrapper {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
+  }
+  .footer_nav {
+    display: none;
+  }
+  .footer_social {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .fotterl {
+    margin-top: 37px;
   }
 }/*# sourceMappingURL=main.css.map */
