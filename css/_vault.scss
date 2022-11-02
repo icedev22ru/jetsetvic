@@ -14,6 +14,10 @@
     button{
         margin-top: 95px;
     }
+
+    h2 img{
+        vertical-align: middle;
+    }
 }
 
 
@@ -30,8 +34,9 @@ object{
     font-size: 1em;
     margin-top: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
     grid-row-gap: 80px;
+    grid-column-gap: 100px;
 }
 
 .gird-item{
