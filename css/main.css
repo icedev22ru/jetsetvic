@@ -87,8 +87,6 @@ nav ul {
 }
 .hero_title p {
   margin-top: 30px;
-  line-height: 50px;
-  font-weight: normal;
   width: 630px;
 }
 .hero_title button {
@@ -154,7 +152,7 @@ nav ul {
   padding: 0px 23px;
 }
 .tokl ul li {
-  padding: 15px 15px;
+  padding: 5px 15px;
   line-height: 125%;
 }
 .tokl button {
@@ -226,7 +224,6 @@ nav ul {
 .smartl p {
   max-width: 621px;
   margin-bottom: 38px;
-  line-height: 50px;
 }
 .smartl ul {
   list-style: none;
@@ -235,7 +232,7 @@ nav ul {
   padding: 24px 0px;
 }
 .smartl .blue_button {
-  margin-top: 73px;
+  margin-top: 60px;
 }
 
 .smart_button {
@@ -245,13 +242,13 @@ nav ul {
   border: 1px solid #E3E4EA;
   border-radius: 10px;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 11px 140px 11px 19px;
   width: 355px;
   background-image: url("../assets/images/arrow-small.svg");
   background-position: right 10px center;
   background-repeat: no-repeat;
-  margin: 24px 0px;
+  margin: 10px 0px;
 }
 
 .slide_title {
@@ -331,7 +328,7 @@ nav ul {
 }
 
 .post_container {
-  width: 95%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -360,7 +357,7 @@ nav ul {
 }
 
 .post__title p {
-  font-size: 20px;
+  font-size: 0.83rem;
   font-weight: 300;
   line-height: 175%;
   padding: 25px 0px 60px 0px;
@@ -373,7 +370,7 @@ nav ul {
   border-radius: 10px;
   padding: 12px 34px;
   color: white;
-  font-size: 20px;
+  font-size: 0.83rem;
   font-weight: 500;
 }
 
@@ -486,6 +483,7 @@ p {
   margin: 0px;
   font-size: 1.3rem;
   font-weight: 500;
+  line-height: 160%;
 }
 
 ul {
