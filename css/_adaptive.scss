@@ -38,7 +38,7 @@
 
 
     .tokl h2{
-        font-size: 1.3em;
+        font-size: 1.8em;
         max-width: 600px;
     }
 
@@ -51,6 +51,17 @@
     .tokl ul{
     font-size: 0.8em;
     }
+
+    .smartl h2{
+        font-size: 1.6em;
+    }
+
+    .smartl p{
+        font-size: 0.7em;
+        max-width: 570px;
+        line-height: 40px;
+    }
+
 }
 
 
@@ -81,6 +92,19 @@
     font-size: 0.7em;
     }
   
+    .smartl h2{
+        font-size: 1.6em;
+    }
+
+    .smartl p{
+        font-size: 0.8em;
+        max-width: 570px;
+        line-height: 30px;
+    }
+
+    .slide_title{
+        font-size: 0.8em;
+    }
 }
 
 
@@ -183,5 +207,12 @@
     .tokr{
         display: none;
     }
+
+    .smartplace_wrapper{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        
+    }
+
 
 }

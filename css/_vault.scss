@@ -1,0 +1,42 @@
+#vault{
+    color:$mainAccientColor;
+    padding: 100px 0px;
+}
+
+.vault_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.vaultl{
+    button{
+        margin-top: 95px;
+    }
+}
+
+
+.vaultr{
+    text-align: right;
+object{
+    width: 95%;
+}
+}
+
+
+.items-gird{
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 80px;
+}
+
+.gird-item{
+    img{
+        vertical-align: middle;
+        margin-right: 28px;
+    }
+}

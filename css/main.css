@@ -144,6 +144,7 @@ nav ul {
 
 .tokl p {
   max-width: 800px;
+  line-height: 50px;
 }
 .tokl ul {
   font-size: 1em;
@@ -226,6 +227,7 @@ nav ul {
   font-size: 1em;
   max-width: 730px;
   margin-bottom: 38px;
+  line-height: 50px;
 }
 .smartl ul {
   list-style: none;
@@ -273,6 +275,42 @@ nav ul {
 }
 .slider_blue img {
   width: 149px;
+}
+
+#vault {
+  color: #1D2265;
+  padding: 100px 0px;
+}
+
+.vault_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vaultl button {
+  margin-top: 95px;
+}
+
+.vaultr {
+  text-align: right;
+}
+.vaultr object {
+  width: 95%;
+}
+
+.items-gird {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 80px;
+}
+
+.gird-item img {
+  vertical-align: middle;
+  margin-right: 28px;
 }
 
 body {
@@ -351,7 +389,7 @@ ul {
     line-height: 40px;
   }
   .tokl h2 {
-    font-size: 1.3em;
+    font-size: 1.8em;
     max-width: 600px;
   }
   .tokl p {
@@ -361,6 +399,14 @@ ul {
   }
   .tokl ul {
     font-size: 0.8em;
+  }
+  .smartl h2 {
+    font-size: 1.6em;
+  }
+  .smartl p {
+    font-size: 0.7em;
+    max-width: 570px;
+    line-height: 40px;
   }
 }
 @media screen and (max-width: 1025px) {
@@ -384,6 +430,17 @@ ul {
   }
   .tokl ul {
     font-size: 0.7em;
+  }
+  .smartl h2 {
+    font-size: 1.6em;
+  }
+  .smartl p {
+    font-size: 0.8em;
+    max-width: 570px;
+    line-height: 30px;
+  }
+  .slide_title {
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 900px) {
@@ -461,5 +518,9 @@ ul {
   }
   .tokr {
     display: none;
+  }
+  .smartplace_wrapper {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */
