@@ -1,6 +1,7 @@
 @import "./fonts";
 @import "./hero";
 @import "./tokenization";
+@import "./smartplace";
 
 body{
     position: relative;
@@ -20,6 +21,7 @@ h1{
 }
 
 h2{
+    
     font-size: 2em;
     font-weight: 500;
 }
@@ -36,7 +38,13 @@ ul{margin: 0px; padding: 0px;}
     padding: 0px 50px;
 }
 
+.colorized{
+    background-color: #F8F9FB;
+}
 
+.bg_fix{
+    background-color: #F8F9FB;
+}
 
 
 
