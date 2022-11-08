@@ -1,7 +1,7 @@
 #tokenization{
     position: relative;
     color: #202A60;
-    padding-bottom: 100px;
+    padding-bottom: 4.1667rem;
 }
 
 .tokenization_wrapper{
@@ -13,24 +13,24 @@
 
 .tokl{
     p{
-        max-width: 800px;
-        line-height: 50px;
+        max-width: 33.3333rem;
+        //line-height: 50px;
     }
     ul{
     font-size: 1rem;
     font-weight: 300;
-    max-width: 774px;
-    margin-top: 40px;
-    padding:0px 23px;
+    max-width: 32.25rem;
+    margin-top: 1.6667rem;
+    padding:0px 0.9583rem;
     li{
-        padding: 5px 15px;
+        padding: 0.2083rem 0.625rem;
         line-height: 125%;
     }
     }
 
 
     button{
-        margin-top: 80px;
+        margin-top: 3.3333rem;
     }
 }
 
@@ -89,13 +89,13 @@ img{
     font-size: 1rem;
     color: white;
     font-weight: 500;
-    border-radius: 33px;
-    padding: 15px 35px;
+    border-radius: 1.375rem;
+    padding: 0.625rem 1.4583rem;
     img{
-        margin-left: 10px;
+        margin-left: 0.4167rem;
         vertical-align: middle;
-        width: 26px;
-        height: 26px;
+        width: 1.0833rem;
+        height: 1.0833rem;
     }
 }
 

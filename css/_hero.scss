@@ -6,7 +6,7 @@ $mainAccientColor: #1D2265;
     color: white;
     background-color: #192159;
     //background: linear-gradient(#192159, #1C2465);
-    padding-bottom: 250px;
+    padding-bottom: 10.4167rem;
     background-image: url('../assets/images/wawes.webp');
     background-size: 100%;
     background-position: bottom;
@@ -27,7 +27,7 @@ nav{
     ul{
         display: flex; 
         list-style: none;
-        gap: 48px;
+        gap: 2rem;
     }
 
 
@@ -39,8 +39,8 @@ nav{
     a{
         position: relative;
         font-weight: 400;
-        line-height: 20px;
-        font-size: .6rem;
+        line-height: 0.8333rem;
+        font-size:14px;
         color: white;
         text-decoration: none;
         &:hover::before{
@@ -69,8 +69,8 @@ nav{
 }
 
 #humb img{
-width: 24px;
-height: 24px;
+width: 1rem;
+height: 1rem;
 z-index: 2001;
 cursor: pointer;
 }
@@ -79,20 +79,20 @@ cursor: pointer;
 .humb_menu{
 display: none;
 z-index: 2000;
-min-width: 100px;
+min-width: 4.1667rem;
 background-color: #fff;
 position: absolute;
-border-radius: 5px;
-top: 40px;
+border-radius: 0.2083rem;
+top: 1.6667rem;
 right: 0px;
-padding: 20px 40px;
+padding: 0.8333rem 1.6667rem;
 ul{
     text-align: right;
     list-style: none;
     white-space: nowrap;
   
     li{
-        margin: 25px 0px;
+        margin: 1.0417rem 0px;
         
     }
 }
@@ -111,28 +111,28 @@ a{
 
 .hero_wrapper{
 display: flex;
-margin-top: 100px;
+margin-top: 4.1667rem;
 justify-content: space-between;
 align-items: center;
 }
 
 .hero_title{
-    width:950px;
+    width:39.5833rem;
     p{
-        margin-top: 30px;
-        width: 860px;
+        margin-top: 1.25rem;
+        width: 35.8333rem;
     }
     button{
-        margin-top: 100px;
-        margin-bottom: 80px;
+        margin-top: 4.1667rem;
+        margin-bottom: 3.3333rem;
     }
 }
 
 
 .hero_image{
     text-align: right;
-    img{
-        width: 100%;
+    object{
+        width: 98%;
     }
 }
 
@@ -146,12 +146,12 @@ align-items: center;
     color: $mainAccientColor;
     font-weight: 500;
     border-radius: 33px;
-    padding: 15px 35px;
+    padding: 0.625rem 1.4583rem;
     img{
         margin-left: 10px;
         vertical-align: middle;
-        width: 26px;
-        height: 26px;
+        width: 1.0833rem;
+        height: 1.0833rem;
     }
 }
 
@@ -164,7 +164,7 @@ align-items: center;
     position: absolute;   
     z-index: 2000;
     width: 100%;
-    height: 300px;
+    height: 12.5rem;
     bottom: 0px;
    
 }
@@ -188,17 +188,17 @@ align-items: center;
 .sub_heading{
 display: block;
 font-weight: 500;
-font-size: 46px;
+font-size: 1.9167rem;
 line-height: 125%;
 letter-spacing: -0.02em;
 }
 
 
 .smartplace_page_hero_ul{
-margin-left: 20px;
-margin-top: 30px;
+margin-left: 0.8333rem;
+margin-top: 1.25rem;
 font-weight: 400;
-font-size: 24px;
+font-size: 1rem;
 line-height: 170%;
 }
 
@@ -206,12 +206,12 @@ line-height: 170%;
 .smartplace_page_hero_p{
 font-size: 1rem;
 font-weight: 400;
-line-height: 30px;
+line-height: 1.25rem;
 letter-spacing: -0.02em;
 text-align: left;
 }
 
 .smartplace_page_hero_p{
-    max-width: 580px !important;
+    max-width: 24.1667rem !important;
 }
 /*-----------------------------  smart place---------------------*/

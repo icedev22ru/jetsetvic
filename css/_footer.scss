@@ -3,11 +3,11 @@
     max-width: 100%;
     color: white;
     background-color: #192159;
-    padding-top: 260px;
-    padding-bottom: 80px;
+    padding-top: 10.8333rem;
+    padding-bottom: 3.3333rem;
     background-image: url('../assets/images/wave2.webp');
     background-size: 100%;
-    background-position-y:-10px;
+    background-position-y:-0.4167rem;
     background-repeat: no-repeat;
 
     h2{
@@ -25,7 +25,7 @@
 }
 
 .fotterl{
- font-size: 14px;   
+ font-size: 0.5833rem;   
  font-weight: 300;
 }
 
@@ -43,7 +43,7 @@
     opacity: 0.8;
     margin-left: 100px;
     li{
-        padding: 8px;
+        padding: 0.3333rem;
     }
 
     a{
@@ -55,25 +55,25 @@
 }
 
 .footer_nav li:nth-child(1){
-    font-size: 18px;
+    font-size: 0.75rem;
 }
 
 .footer_icons{
-    margin-left: 26px;
+    margin-left: 1.0833rem;
 }
 
 .copy{
-    margin-top: 10px;
+    margin-top: 0.4167rem;
 }
 
 .footer_social{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 0.75rem;
     list-style: none;
     display: block;
     opacity: 0.8;
-    margin-left: 100px;
+    margin-left: 4.1667rem;
     li{
-        padding: 8px;
+        padding: 0.3333rem;
     }
 }

@@ -27,7 +27,7 @@
   max-width: 100%;
   color: white;
   background-color: #192159;
-  padding-bottom: 250px;
+  padding-bottom: 10.4167rem;
   background-image: url("../assets/images/wawes.webp");
   background-size: 100%;
   background-position: bottom;
@@ -48,7 +48,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 48px;
+  gap: 2rem;
 }
 @-webkit-keyframes fadeIn {
   0% {
@@ -69,8 +69,8 @@ nav ul {
 nav a {
   position: relative;
   font-weight: 400;
-  line-height: 20px;
-  font-size: 0.6rem;
+  line-height: 0.8333rem;
+  font-size: 14px;
   color: white;
   text-decoration: none;
 }
@@ -93,8 +93,8 @@ nav a:hover::before {
 }
 
 #humb img {
-  width: 24px;
-  height: 24px;
+  width: 1rem;
+  height: 1rem;
   z-index: 2001;
   cursor: pointer;
 }
@@ -102,13 +102,13 @@ nav a:hover::before {
 .humb_menu {
   display: none;
   z-index: 2000;
-  min-width: 100px;
+  min-width: 4.1667rem;
   background-color: #fff;
   position: absolute;
-  border-radius: 5px;
-  top: 40px;
+  border-radius: 0.2083rem;
+  top: 1.6667rem;
   right: 0px;
-  padding: 20px 40px;
+  padding: 0.8333rem 1.6667rem;
 }
 .humb_menu ul {
   text-align: right;
@@ -116,7 +116,7 @@ nav a:hover::before {
   white-space: nowrap;
 }
 .humb_menu ul li {
-  margin: 25px 0px;
+  margin: 1.0417rem 0px;
 }
 .humb_menu a {
   display: block;
@@ -128,28 +128,28 @@ nav a:hover::before {
 
 .hero_wrapper {
   display: flex;
-  margin-top: 100px;
+  margin-top: 4.1667rem;
   justify-content: space-between;
   align-items: center;
 }
 
 .hero_title {
-  width: 950px;
+  width: 39.5833rem;
 }
 .hero_title p {
-  margin-top: 30px;
-  width: 860px;
+  margin-top: 1.25rem;
+  width: 35.8333rem;
 }
 .hero_title button {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 4.1667rem;
+  margin-bottom: 3.3333rem;
 }
 
 .hero_image {
   text-align: right;
 }
-.hero_image img {
-  width: 100%;
+.hero_image object {
+  width: 98%;
 }
 
 .white_button {
@@ -162,13 +162,13 @@ nav a:hover::before {
   color: #1D2265;
   font-weight: 500;
   border-radius: 33px;
-  padding: 15px 35px;
+  padding: 0.625rem 1.4583rem;
 }
 .white_button img {
   margin-left: 10px;
   vertical-align: middle;
-  width: 26px;
-  height: 26px;
+  width: 1.0833rem;
+  height: 1.0833rem;
 }
 
 .bt_hidden {
@@ -179,7 +179,7 @@ nav a:hover::before {
   position: absolute;
   z-index: 2000;
   width: 100%;
-  height: 300px;
+  height: 12.5rem;
   bottom: 0px;
 }
 
@@ -200,36 +200,36 @@ nav a:hover::before {
 .sub_heading {
   display: block;
   font-weight: 500;
-  font-size: 46px;
+  font-size: 1.9167rem;
   line-height: 125%;
   letter-spacing: -0.02em;
 }
 
 .smartplace_page_hero_ul {
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-left: 0.8333rem;
+  margin-top: 1.25rem;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1rem;
   line-height: 170%;
 }
 
 .smartplace_page_hero_p {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.25rem;
   letter-spacing: -0.02em;
   text-align: left;
 }
 
 .smartplace_page_hero_p {
-  max-width: 580px !important;
+  max-width: 24.1667rem !important;
 }
 
 /*-----------------------------  smart place---------------------*/
 #tokenization {
   position: relative;
   color: #202A60;
-  padding-bottom: 100px;
+  padding-bottom: 4.1667rem;
 }
 
 .tokenization_wrapper {
@@ -239,22 +239,21 @@ nav a:hover::before {
 }
 
 .tokl p {
-  max-width: 800px;
-  line-height: 50px;
+  max-width: 33.3333rem;
 }
 .tokl ul {
   font-size: 1rem;
   font-weight: 300;
-  max-width: 774px;
-  margin-top: 40px;
-  padding: 0px 23px;
+  max-width: 32.25rem;
+  margin-top: 1.6667rem;
+  padding: 0px 0.9583rem;
 }
 .tokl ul li {
-  padding: 5px 15px;
+  padding: 0.2083rem 0.625rem;
   line-height: 125%;
 }
 .tokl button {
-  margin-top: 80px;
+  margin-top: 3.3333rem;
 }
 
 .tokr {
@@ -333,14 +332,14 @@ nav a:hover::before {
   font-size: 1rem;
   color: white;
   font-weight: 500;
-  border-radius: 33px;
-  padding: 15px 35px;
+  border-radius: 1.375rem;
+  padding: 0.625rem 1.4583rem;
 }
 .blue_button img {
-  margin-left: 10px;
+  margin-left: 0.4167rem;
   vertical-align: middle;
-  width: 26px;
-  height: 26px;
+  width: 1.0833rem;
+  height: 1.0833rem;
 }
 
 .slide_hide {
@@ -402,30 +401,30 @@ nav a:hover::before {
   text-align: center;
 }
 .smart_mobile .blue_button {
-  margin: 45px auto;
+  margin: 1.875rem auto;
 }
 .smart_mobile .p_title {
   display: block;
   font-size: 0.66rem;
-  margin: 39px auto;
+  margin: 1.625rem auto;
   text-align: center;
 }
 
 .smartl p {
-  max-width: 880px;
-  margin-bottom: 38px;
+  max-width: 36.6667rem;
+  margin-bottom: 1.5833rem;
 }
 .smartl h2 {
-  margin-top: 0px;
+  margin-top: 0rem;
 }
 .smartl ul {
   list-style: none;
 }
 .smartl ul li {
-  padding: 24px 0px;
+  padding: 1rem 0px;
 }
 .smartl .blue_button {
-  margin-top: 60px;
+  margin-top: 2.5rem;
 }
 
 .smart_button {
@@ -436,12 +435,12 @@ nav a:hover::before {
   border-radius: 10px;
   text-align: left;
   font-size: 1rem;
-  padding: 11px 140px 11px 19px;
-  width: 500px;
+  padding: 0.4583rem 5.8333rem 0.4583rem 0.7917rem;
+  width: 20.8333rem;
   background-image: url("../assets/images/arrow-small.svg");
-  background-position: right 10px center;
+  background-position: right 0.4167rem center;
   background-repeat: no-repeat;
-  margin: 10px 0px;
+  margin: 0.4167rem 0px;
 }
 
 .smart_button_active {
@@ -456,8 +455,8 @@ nav a:hover::before {
 }
 
 .swiper_lg {
-  width: 848px;
-  height: 639px;
+  width: 35.3333rem;
+  height: 26.625rem;
   overflow: hidden;
 }
 
@@ -629,11 +628,11 @@ nav a:hover::before {
   max-width: 100%;
   color: white;
   background-color: #192159;
-  padding-top: 260px;
-  padding-bottom: 80px;
+  padding-top: 10.8333rem;
+  padding-bottom: 3.3333rem;
   background-image: url("../assets/images/wave2.webp");
   background-size: 100%;
-  background-position-y: -10px;
+  background-position-y: -0.4167rem;
   background-repeat: no-repeat;
 }
 #footer h2 {
@@ -647,7 +646,7 @@ nav a:hover::before {
 }
 
 .fotterl {
-  font-size: 14px;
+  font-size: 0.5833rem;
   font-weight: 300;
 }
 
@@ -665,7 +664,7 @@ nav a:hover::before {
   margin-left: 100px;
 }
 .footer_nav li {
-  padding: 8px;
+  padding: 0.3333rem;
 }
 .footer_nav a {
   color: white;
@@ -675,27 +674,27 @@ nav a:hover::before {
 }
 
 .footer_nav li:nth-child(1) {
-  font-size: 18px;
+  font-size: 0.75rem;
 }
 
 .footer_icons {
-  margin-left: 26px;
+  margin-left: 1.0833rem;
 }
 
 .copy {
-  margin-top: 10px;
+  margin-top: 0.4167rem;
 }
 
 .footer_social {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 0.75rem;
   list-style: none;
   display: block;
   opacity: 0.8;
-  margin-left: 100px;
+  margin-left: 4.1667rem;
 }
 .footer_social li {
-  padding: 8px;
+  padding: 0.3333rem;
 }
 
 html, body {
@@ -775,339 +774,31 @@ ul {
      object-fit: contain;
 }
 
-@media screen and (max-width: 1650px) {
-  .hero_image > object {
-    width: 95%;
+@media screen and (max-width: 1601px) {
+  html {
+    font-size: 18px;
   }
-  .hero_title h1 {
-    font-size: 1.8rem;
-    max-width: 600px;
+}
+@media screen and (max-width: 1401px) {
+  html {
+    font-size: 16px;
+  }
+  .hero_title {
+    max-width: 38rem;
+  }
+  h1 {
+    font-size: 2.5rem;
   }
   p {
-    font-size: 1rem;
-    max-width: 740px;
-  }
-  .white_button {
-    font-size: 0.8rem;
-    padding: 15px 30px;
-  }
-  .footer_nav {
-    font-size: 12px;
-    margin-right: -80px;
-  }
-  .footer_nav a {
-    margin-right: -88px;
-  }
-  .footer_nav li:nth-child(1) {
-    font-size: 16px;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 1281px) {
-  .hero_title h1 {
-    font-size: 1.6rem;
-    max-width: 600px;
-  }
-  .hero_title p {
-    font-size: 0.8rem;
-    max-width: 570px;
-    line-height: 40px;
-  }
-  .tokl h2 {
-    font-size: 1.25em;
-    max-width: 600px;
-    margin-bottom: 10px;
-  }
-  .tokl p {
-    font-size: 0.75rem;
-    font-weight: 400;
-    max-width: 430px;
-    line-height: 125%;
-  }
-  .tokl ul {
-    font-size: 0.66rem;
-    margin-top: 19px;
-  }
-  .tokl button {
-    margin-top: 40px;
-  }
-  #tokenization {
-    padding-bottom: 60px;
-  }
-  .smartl h2 {
-    font-size: 1.25em;
-    margin: 0px 0px 20px 0px;
-  }
-  .smartl p {
-    font-size: 0.75rem;
-    max-width: 680px;
-    font-weight: 400;
-    line-height: 125%;
-  }
-  .smart_button {
-    font-size: 0.66rem;
-    width: 363px;
-  }
-  .smartplace_wrapper {
-    align-items: initial;
-  }
-  .smartl {
-    transform: translateY(-59px);
-  }
-  .slide_title {
-    font-size: 0.66rem;
-  }
-  .blue_button {
-    font-size: 0.75rem;
-  }
-  .items-gird {
-    margin-top: 28px;
-  }
-  .vaultl h2 {
-    font-size: 1.25em;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  .vaultl h2 img {
-    margin-right: -15px;
-  }
-  .vaultl p {
-    font-size: 0.75rem;
-    max-width: 570px;
-    font-weight: 400;
-  }
-  .items-gird {
-    font-size: 0.7rem;
-    grid-column-gap: 50px;
-  }
-}
-@media screen and (max-width: 1025px) {
-  .hero_title h1 {
-    font-size: 1.2rem;
-    max-width: 430px;
-  }
-  .hero_title p {
-    font-size: 0.7rem;
-    max-width: 460px;
-    line-height: 30px;
-  }
-  .tokl h2 {
-    font-size: 1.3rem;
-    max-width: 600px;
-  }
-  .tokl p {
-    font-size: 0.8rem;
-    max-width: 570px;
-    line-height: 40px;
-  }
-  .tokl ul {
-    font-size: 0.7rem;
-  }
-  .smartl h2 {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  .smartl p {
-    font-size: 0.8rem;
-    text-align: center;
-    line-height: 30px;
-  }
-  .slide_title {
-    font-size: 0.8rem;
-  }
-  .vaultl h2 {
-    font-size: 1.6rem;
-  }
-  .vaultl p {
-    font-size: 0.7rem;
-    max-width: 570px;
-    line-height: 40px;
-  }
-  .items-gird {
-    font-size: 0.5rem;
-    grid-column-gap: 50px;
-  }
-  .footer_nav {
-    font-size: 10px;
-    margin-right: -90px;
-  }
-  .footer_nav a {
-    margin-right: -88px;
-  }
-  .footer_nav li:nth-child(1) {
+  html {
     font-size: 14px;
   }
-}
-@media screen and (max-width: 900px) {
-  .container {
-    padding: 0px 15px;
-  }
-  #humb {
-    display: block;
-    z-index: 2000;
-  }
-  nav {
-    display: none;
-  }
-  .logo img {
-    width: 67px;
-    height: 17px;
-  }
-  .hero_title {
-    width: auto;
-  }
-  .hero_title h1 {
-    text-align: center;
-  }
-  .hero_title p {
-    font-size: 0.7rem;
-    width: 100%;
-    text-align: center;
-  }
-  .hero_wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-  }
-  .white_button {
-    display: none;
-  }
-  .bt_hidden {
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-  .hero_image > object {
-    margin-top: 30px;
-  }
-  .hero_image {
-    text-align: center;
-  }
-  .hero_image > object {
-    width: 85%;
-  }
-  .tokenization_wrapper {
-    justify-content: center;
-    align-items: center;
-  }
-  .tokl {
-    text-align: center;
-  }
-  .tokl button {
-    margin: 60px auto;
-  }
-  .tokl .slide_hide img {
-    width: 95%;
-  }
-  .tokl h2 {
-    max-width: 100%;
-  }
-  .tokl p {
-    max-width: 100%;
-  }
-  .tokl ul {
-    text-align: left;
-  }
-  .slide_hide {
-    display: block;
-  }
-  .tokr {
-    display: none;
-  }
-  .smartplace_wrapper {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-  }
-  .smartr {
-    text-align: center;
-  }
-  .smartl .blue_button {
-    margin: 0 auto;
-  }
-  .smartl {
-    display: none;
-  }
-  .smartr {
-    display: none;
-  }
-  .smart_mobile {
-    display: block;
-  }
-  .vault_wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .vaultl {
-    text-align: center;
-  }
-  .vaultl button {
-    margin: 80px auto;
-  }
-  .vaultr {
-    display: none;
-  }
-  .items-gird {
-    grid-template-columns: auto auto;
-    font-size: 0.5rem;
-  }
-  .items-gird .gird-item img {
-    display: block;
-    margin: 30px auto;
-  }
-  #footer {
-    padding: 102px 0px 51px 0px;
-  }
-  .footer_wrapper {
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 360px;
-    margin: 0 auto;
-  }
-  .footer_nav {
-    display: none;
-  }
-  .footer_social {
-    text-align: center;
-    margin-left: 0px;
-  }
-  .fotterl {
-    margin-top: 37px;
-  }
-  .post_item {
-    flex-direction: column;
-  }
-  .post_image {
-    transform: translateY(-60px);
-  }
-  .post_image img {
-    display: block;
-    margin: 0 auto;
-  }
-  #hero {
-    padding-bottom: 120px;
-  }
-  #tokenization {
-    padding-top: 30px;
-    padding-bottom: 0px;
-  }
-  #vault {
-    padding: 20px 0px;
-  }
-  #blog {
-    padding: 30px 0px;
-  }
-  h3 {
-    font-size: 0.75rem;
-  }
-  p {
-    font-size: 0.6em;
-    font-weight: 400;
-  }
-}
-@media screen and (max-width: 431px) {
-  .post_container {
-    width: 100%;
+  .smartl p {
+    max-width: 30.6667rem;
+    margin-bottom: 1.5833rem;
   }
 }/*# sourceMappingURL=main.css.map */
