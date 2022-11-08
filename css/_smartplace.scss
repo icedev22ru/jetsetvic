@@ -8,7 +8,6 @@
 .smartplace_wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-bottom: 10px;
 }
 
@@ -76,6 +75,11 @@
         max-width: 880px;
         margin-bottom: 38px;
     }
+
+    h2{
+    margin-top: 0px;
+    }
+
     ul{
         list-style: none;
      
@@ -106,10 +110,23 @@
 
 }
 
+.smart_button_active{
+    background-color: $mainAccientColor;
+    color: white;
+}
+
+
 .slide_title{
     text-align: center;
     font-size: 1rem;
     margin-top: 23px;
+}
+
+
+.swiper_lg{
+    width: 848px;
+    height: 639px;
+    overflow: hidden;
 }
 
 

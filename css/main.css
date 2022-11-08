@@ -42,20 +42,39 @@
   border-bottom: 1px solid #202A60;
 }
 
+nav {
+  z-index: 2000;
+}
 nav ul {
   display: flex;
   list-style: none;
   gap: 48px;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+nav a {
+  position: relative;
   font-weight: 400;
   line-height: 20px;
   font-size: 0.6rem;
+  color: white;
+  text-decoration: none;
 }
-
-.active {
-  position: relative;
-}
-
-.active::before {
+nav a:hover::before {
   content: "";
   display: block;
   position: absolute;
@@ -64,6 +83,8 @@ nav ul {
   height: 1px;
   background-color: white;
   border-radius: 10px;
+  -webkit-animation: fadeIn 0.8s;
+          animation: fadeIn 0.8s;
 }
 
 #humb {
@@ -91,6 +112,7 @@ nav ul {
 }
 .hero_title button {
   margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .hero_image {
@@ -211,7 +233,6 @@ nav ul {
 .smartplace_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-bottom: 10px;
 }
 
@@ -271,6 +292,9 @@ nav ul {
   max-width: 880px;
   margin-bottom: 38px;
 }
+.smartl h2 {
+  margin-top: 0px;
+}
 .smartl ul {
   list-style: none;
 }
@@ -297,10 +321,21 @@ nav ul {
   margin: 10px 0px;
 }
 
+.smart_button_active {
+  background-color: #1D2265;
+  color: white;
+}
+
 .slide_title {
   text-align: center;
   font-size: 1rem;
   margin-top: 23px;
+}
+
+.swiper_lg {
+  width: 848px;
+  height: 639px;
+  overflow: hidden;
 }
 
 .smartr {
