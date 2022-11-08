@@ -52,54 +52,59 @@ const swiper = new Swiper('.swiper', {
 
 
 
-  /*ITEMS */
+/*ITEMS */
 
 var actives = document.getElementsByClassName('smart_button_active'); 
 
   var item1 = document.getElementById("first_item");
-  
+  if(item6 != null){
   item1.addEventListener('click', function(){
     console.log("first");
     actives[0].classList.remove('smart_button_active');
     item1.classList.add('smart_button_active');
     swiper_lg.slideTo(0);
   });
+}
 
 
   var item2 = document.getElementById("second_item");
-  
+  if(item6 != null){
   item2.addEventListener('click', function(){
   console.log("second");
   actives[0].classList.remove('smart_button_active');
   item2.classList.add('smart_button_active');
   swiper_lg.slideTo(1);
   });
+}
 
   var item3 = document.getElementById("third_item");
-  
+  if(item6 != null){
   item3.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item3.classList.add('smart_button_active');
   swiper_lg.slideTo(2);
   });
+}
 
 
   var item4 = document.getElementById("four_item");
-  
+  if(item6 != null){
   item4.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item4.classList.add('smart_button_active');
   swiper_lg.slideTo(3);
   });
+}
 
 
   var item5 = document.getElementById("five_item");
-  
+  if(item6 != null){
   item5.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item5.classList.add('smart_button_active');
   swiper_lg.slideTo(4);
   });
+}
 
 
   var item6 = document.getElementById("six_item");

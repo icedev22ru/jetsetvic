@@ -437,9 +437,10 @@ nav a:hover::before {
   font-size: 1rem;
   padding: 0.4583rem 5.8333rem 0.4583rem 0.7917rem;
   width: 20.8333rem;
-  background-image: url("../assets/images/arrow-small.svg");
+  background-image: url("../assets/images/success.svg");
   background-position: right 0.4167rem center;
   background-repeat: no-repeat;
+  background-size: 0.8rem 0.8rem;
   margin: 0.4167rem 0px;
 }
 
@@ -548,16 +549,16 @@ nav a:hover::before {
 .items-gird {
   font-weight: 400;
   font-size: 1rem;
-  margin-top: 80px;
+  margin-top: 3.3333rem;
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-row-gap: 80px;
-  grid-column-gap: 100px;
+  grid-row-gap: 3.3333rem;
+  grid-column-gap: 4.1667rem;
 }
 
 .gird-item img {
   vertical-align: middle;
-  margin-right: 28px;
+  margin-right: 1.1667rem;
 }
 
 #blog {
@@ -784,6 +785,13 @@ ul {
   .tokr img {
     width: 85%;
   }
+  .vaultr object {
+    width: 80%;
+  }
+  .smartr img {
+    width: 85%;
+    filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
+  }
 }
 @media screen and (max-width: 1401px) {
   html {
@@ -800,6 +808,13 @@ ul {
   }
   .hero_image object {
     width: 70%;
+  }
+  .vaultr object {
+    width: 75%;
+  }
+  .smartr img {
+    width: 75%;
+    filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
   }
 }
 @media screen and (max-width: 1281px) {
