@@ -102,6 +102,17 @@ var actives = document.getElementsByClassName('smart_button_active');
   });
 
 
+  var item6 = document.getElementById("six_item");
+  if(item6 != null){
+    item6.addEventListener('click', function(){
+      actives[0].classList.remove('smart_button_active');
+      item6.classList.add('smart_button_active');
+      swiper_lg.slideTo(5);
+      });
+  }
+ 
+
+
   /*ITEMS */
 
   
@@ -127,7 +138,6 @@ var actives = document.getElementsByClassName('smart_button_active');
     let posTop = window.scrollY;
     entries.forEach((entry) => {
       if(entry.isIntersecting) {
-       console.log('ВИДНО!!!'+  posTop);
        target[0].style.opacity = 1.0;
        target[0].setAttribute('transition-style','in:wipe:down');//transition-style="in:wipe:down"  //in:wipe:up
     }

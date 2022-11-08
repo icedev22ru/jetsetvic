@@ -148,6 +148,9 @@ nav a:hover::before {
 .hero_image {
   text-align: right;
 }
+.hero_image img {
+  width: 100%;
+}
 
 .white_button {
   display: block;
@@ -193,6 +196,36 @@ nav a:hover::before {
   opacity: 0.3;
 }
 
+/*-----------------------------  smart place---------------------*/
+.sub_heading {
+  display: block;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+}
+
+.smartplace_page_hero_ul {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 170%;
+}
+
+.smartplace_page_hero_p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.smartplace_page_hero_p {
+  max-width: 580px !important;
+}
+
+/*-----------------------------  smart place---------------------*/
 #tokenization {
   position: relative;
   color: #202A60;
@@ -680,11 +713,13 @@ h1 {
   padding: 0px;
   font-weight: 500;
   font-size: 2.8rem;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -705,7 +740,7 @@ p {
   padding: 0px;
   margin: 0px;
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 160%;
 }
 
