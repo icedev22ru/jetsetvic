@@ -105,3 +105,40 @@ var actives = document.getElementsByClassName('smart_button_active');
   /*ITEMS */
 
   
+  /*MENU*/
+  var humb = document.getElementById("humb");
+  var humb_menu = document.getElementsByClassName('humb_menu');
+
+  humb.addEventListener('click', function(){
+    if(humb_menu[0].style.display == 'block'){
+      humb_menu[0].style.display = 'none';
+    }else{
+      humb_menu[0].style.display = 'block';
+    }
+    
+  });
+  /*MENU*/
+
+
+  /*PRALAX*/
+  var target = document.getElementsByClassName('prlx-down');
+  
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+    let posTop = window.scrollY;
+    entries.forEach((entry) => {
+      if(entry.isIntersecting) {
+       console.log('ВИДНО!!!'+  posTop);
+       target[0].style.opacity = 1.0;
+       target[0].setAttribute('transition-style','in:wipe:down');//transition-style="in:wipe:down"  //in:wipe:up
+    }
+    });
+    if(posTop < 100.0){
+      target[0].style.opacity = 0;
+      target[0].removeAttribute(('transition-style'));
+    }
+    
+},{threshold:0.7});
+    imageObserver.observe(target[0]);
+
+  
+  /*PRALAX*/

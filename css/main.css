@@ -88,12 +88,42 @@ nav a:hover::before {
 }
 
 #humb {
+  position: relative;
   display: none;
 }
 
 #humb img {
   width: 24px;
   height: 24px;
+  z-index: 2001;
+  cursor: pointer;
+}
+
+.humb_menu {
+  display: none;
+  z-index: 2000;
+  min-width: 100px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 5px;
+  top: 40px;
+  right: 0px;
+  padding: 20px 40px;
+}
+.humb_menu ul {
+  text-align: right;
+  list-style: none;
+  white-space: nowrap;
+}
+.humb_menu ul li {
+  margin: 25px 0px;
+}
+.humb_menu a {
+  display: block;
+  text-decoration: none;
+  color: #1D2265;
+  font-size: 0.6rem;
+  font-weight: 400;
 }
 
 .hero_wrapper {
@@ -195,10 +225,70 @@ nav a:hover::before {
 }
 
 .tokr {
+  position: relative;
   text-align: right;
 }
 .tokr img {
   width: 95%;
+}
+
+.prlx-down {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+}
+
+@-webkit-keyframes wipe-in-down {
+  from {
+    -webkit-clip-path: inset(0 0 100% 0);
+            clip-path: inset(0 0 100% 0);
+  }
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes wipe-in-down {
+  from {
+    -webkit-clip-path: inset(0 0 100% 0);
+            clip-path: inset(0 0 100% 0);
+  }
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+[transition-style="in:wipe:down"] {
+  --transition__duration: 10s;
+  -webkit-animation: 5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-down both;
+          animation: 5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-down both;
+}
+
+@-webkit-keyframes wipe-in-up {
+  from {
+    -webkit-clip-path: inset(100% 0 0 0);
+            clip-path: inset(100% 0 0 0);
+  }
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes wipe-in-up {
+  from {
+    -webkit-clip-path: inset(100% 0 0 0);
+            clip-path: inset(100% 0 0 0);
+  }
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0);
+  }
+}
+[transition-style="in:wipe:up"] {
+  -webkit-animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-up both;
+          animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-up both;
 }
 
 .blue_button {
@@ -818,6 +908,7 @@ ul {
   }
   #humb {
     display: block;
+    z-index: 2000;
   }
   nav {
     display: none;

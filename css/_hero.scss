@@ -63,18 +63,50 @@ nav{
 }
 
 
-
-
-
-
 #humb{
+    position: relative;
     display: none;
 }
 
 #humb img{
 width: 24px;
 height: 24px;
+z-index: 2001;
+cursor: pointer;
 }
+
+
+.humb_menu{
+display: none;
+z-index: 2000;
+min-width: 100px;
+background-color: #fff;
+position: absolute;
+border-radius: 5px;
+top: 40px;
+right: 0px;
+padding: 20px 40px;
+ul{
+    text-align: right;
+    list-style: none;
+    white-space: nowrap;
+  
+    li{
+        margin: 25px 0px;
+        
+    }
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: $mainAccientColor;
+    font-size:.6rem;
+    
+    font-weight: 400;
+}
+
+}
+
 
 
 .hero_wrapper{
