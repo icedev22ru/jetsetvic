@@ -142,10 +142,21 @@
 .slider_blue{
     text-align: center;
     margin-top: 24px;
-    img{
-        width: 149px;
-    }
-
+   
+    .swiper-pagination-bullet{
+        width: 16px;
+        height: 4px;
+        border-radius:10px;
+        background-color: $mainAccientColor;
+        opacity: 0.3;
+        }
+    
+        .swiper-pagination-bullet-active{
+            background-color: $mainAccientColor;
+            width: 36px;
+            opacity: 1;
+    
+        }
 }
 
 .slider_moblie_tabs{

@@ -350,8 +350,17 @@ nav a:hover::before {
   text-align: center;
   margin-top: 24px;
 }
-.slider_blue img {
-  width: 149px;
+.slider_blue .swiper-pagination-bullet {
+  width: 16px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #1D2265;
+  opacity: 0.3;
+}
+.slider_blue .swiper-pagination-bullet-active {
+  background-color: #1D2265;
+  width: 36px;
+  opacity: 1;
 }
 
 .slider_moblie_tabs {
@@ -534,6 +543,12 @@ nav a:hover::before {
 }
 .footer_nav li {
   padding: 8px;
+}
+.footer_nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .footer_nav li:nth-child(1) {
