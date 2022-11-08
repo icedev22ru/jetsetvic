@@ -71,3 +71,104 @@
 
    
 }
+
+@media screen and (max-width:969px) {
+//HEADER
+    .header{
+    nav{
+        display: none;
+    }
+
+    #humb{
+        display: block;
+    }
+    }
+
+
+    .hero_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        row-gap: 1.3rem;
+
+        .white_button{
+            display: none;
+        }
+        .bt_hidden{
+            display: block;
+            margin-top: 1.3rem;
+        }
+        .hero_image{
+            text-align: center;
+        }
+    }
+
+    //HEADER
+
+
+    //TOKEN
+    .tokenization_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+        .slide_hide {
+            position: relative;
+            text-align: end;
+            display: block;
+            img{
+                width: 75%;
+            }
+        }
+        .tokl p{
+            max-width: 100%;
+        }
+
+        .tokl ul{
+            text-align: left;
+            margin: 1rem auto;
+        }
+
+        .tokl button{
+            margin: 0 auto;
+        }
+
+        .tokr{
+            display: none;
+        }
+    }
+    //TOKEN
+
+
+    //smart
+    .smartplace_wrapper{
+        flex-wrap: wrap;
+    }
+    //smart
+
+
+    //vault
+    .vault_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+    
+       .vaultl{
+        text-align: center;
+        button{
+            margin: 80px auto;
+        }
+       }
+    
+       .vaultr{
+        display: none;
+       }
+    //vault
+
+    //blog
+    .post_container{
+        width: 100%;
+    }
+    //blog
+}

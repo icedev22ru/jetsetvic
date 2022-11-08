@@ -90,11 +90,12 @@ nav a:hover::before {
 #humb {
   position: relative;
   display: none;
+  z-index: 2001;
 }
 
 #humb img {
-  width: 1rem;
-  height: 1rem;
+  width: 24px;
+  height: 24px;
   z-index: 2001;
   cursor: pointer;
 }
@@ -173,6 +174,7 @@ nav a:hover::before {
 
 .bt_hidden {
   display: none;
+  margin: 0 auto;
 }
 
 .wawes {
@@ -523,7 +525,7 @@ nav a:hover::before {
 
 #vault {
   color: #1D2265;
-  padding: 80px 0px;
+  padding: 3.3333rem 0px;
 }
 
 .vault_wrapper {
@@ -533,7 +535,7 @@ nav a:hover::before {
 }
 
 .vaultl button {
-  margin-top: 95px;
+  margin-top: 3.9583rem;
 }
 .vaultl h2 img {
   vertical-align: middle;
@@ -567,7 +569,7 @@ nav a:hover::before {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
-  padding: 200px 0px;
+  padding: 8.3333rem 0px;
   color: #1D2265;
 }
 
@@ -585,32 +587,32 @@ nav a:hover::before {
   background-color: white;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  padding: 40px;
-  margin-top: 42px;
+  padding: 1.6667rem;
+  margin-top: 1.75rem;
 }
 
 .post_image {
-  transform: translatex(-80px);
+  transform: translatex(-3.3333rem);
 }
 .post_image img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.4167rem;
 }
 
 .post__date {
   color: #BABABA;
-  font-size: 14px;
+  font-size: 0.5833rem;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 0.4167rem;
 }
 
 .post__title p {
   font-size: 0.83rem;
   font-weight: 300;
   line-height: 175%;
-  padding: 25px 0px 60px 0px;
+  padding: 1.0417rem 0px 2.5rem 0px;
 }
 
 .link_button {
@@ -618,7 +620,7 @@ nav a:hover::before {
   background-color: #1D2265;
   border: none;
   border-radius: 10px;
-  padding: 12px 34px;
+  padding: 0.5rem 1.4167rem;
   color: white;
   font-size: 0.83rem;
   font-weight: 500;
@@ -658,11 +660,11 @@ nav a:hover::before {
 
 .footer_nav {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.9rem;
   list-style: none;
   display: block;
   opacity: 0.8;
-  margin-left: 100px;
+  margin-left: 4.1667rem;
 }
 .footer_nav li {
   padding: 0.3333rem;
@@ -671,7 +673,7 @@ nav a:hover::before {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .footer_nav li:nth-child(1) {
@@ -827,5 +829,75 @@ ul {
   }
   .hero_image object {
     width: 60%;
+  }
+}
+@media screen and (max-width: 969px) {
+  .header nav {
+    display: none;
+  }
+  .header #humb {
+    display: block;
+  }
+  .hero_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    row-gap: 1.3rem;
+  }
+  .hero_wrapper .white_button {
+    display: none;
+  }
+  .hero_wrapper .bt_hidden {
+    display: block;
+    margin-top: 1.3rem;
+  }
+  .hero_wrapper .hero_image {
+    text-align: center;
+  }
+  .tokenization_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .tokenization_wrapper .slide_hide {
+    position: relative;
+    text-align: end;
+    display: block;
+  }
+  .tokenization_wrapper .slide_hide img {
+    width: 75%;
+  }
+  .tokenization_wrapper .tokl p {
+    max-width: 100%;
+  }
+  .tokenization_wrapper .tokl ul {
+    text-align: left;
+    margin: 1rem auto;
+  }
+  .tokenization_wrapper .tokl button {
+    margin: 0 auto;
+  }
+  .tokenization_wrapper .tokr {
+    display: none;
+  }
+  .smartplace_wrapper {
+    flex-wrap: wrap;
+  }
+  .vault_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vaultl {
+    text-align: center;
+  }
+  .vaultl button {
+    margin: 80px auto;
+  }
+  .vaultr {
+    display: none;
+  }
+  .post_container {
+    width: 100%;
   }
 }/*# sourceMappingURL=main.css.map */

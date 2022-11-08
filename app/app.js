@@ -39,19 +39,6 @@ const swiper = new Swiper('.swiper', {
 
 
 
-  const swiper_lg = new Swiper('.swiper_lg', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: false,   
-    centeredSlides: true,
-  
-    pagination:{
-      el:'.slider_blue',
-    }
-  });
-
-
-
 /*ITEMS */
 
 var actives = document.getElementsByClassName('smart_button_active'); 
@@ -138,9 +125,9 @@ var actives = document.getElementsByClassName('smart_button_active');
 
   /*PRALAX*/
   var target = document.getElementsByClassName('prlx-down');
+  var target2 = document.getElementsByClassName('prlx-down-mobile');
   
   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
-    let posTop = window.scrollY;
     entries.forEach((entry) => {
       if(entry.isIntersecting) {
        target[0].style.opacity = 1.0;
@@ -152,5 +139,4 @@ var actives = document.getElementsByClassName('smart_button_active');
 },{threshold:0.7});
     imageObserver.observe(target[0]);
 
-  
   /*PRALAX*/
