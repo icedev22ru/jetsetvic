@@ -261,7 +261,7 @@ nav a:hover::before {
   text-align: right;
 }
 .tokr img {
-  width: 95%;
+  width: 90%;
 }
 
 .prlx-down {
@@ -780,6 +780,9 @@ ul {
   }
   .hero_image object {
     width: 80%;
+  }
+  .tokr img {
+    width: 85%;
   }
 }
 @media screen and (max-width: 1401px) {
