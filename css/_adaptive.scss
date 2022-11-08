@@ -2,6 +2,10 @@
     html{
         font-size: 18px;
     }
+
+    .hero_image object {
+        width: 80%;
+    }
 }
 
 
@@ -22,6 +26,10 @@
         font-size: 1.2rem;
     }
 
+    .hero_image object {
+        width: 70%;
+    }
+
    
 }
 
@@ -33,5 +41,9 @@
     .smartl p {
         max-width: 30.6667rem;
         margin-bottom: 1.5833rem;
+    }
+
+    .hero_image object {
+        width: 60%;
     }
 }

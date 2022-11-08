@@ -778,6 +778,9 @@ ul {
   html {
     font-size: 18px;
   }
+  .hero_image object {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 1401px) {
   html {
@@ -792,6 +795,9 @@ ul {
   p {
     font-size: 1.2rem;
   }
+  .hero_image object {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 1281px) {
   html {
@@ -800,5 +806,8 @@ ul {
   .smartl p {
     max-width: 30.6667rem;
     margin-bottom: 1.5833rem;
+  }
+  .hero_image object {
+    width: 60%;
   }
 }/*# sourceMappingURL=main.css.map */
