@@ -132,10 +132,7 @@ var actives = document.getElementsByClassName('smart_button_active');
        target[0].setAttribute('transition-style','in:wipe:down');//transition-style="in:wipe:down"  //in:wipe:up
     }
     });
-    if(posTop < 150){
-      target[0].style.opacity = 0;
-      target[0].removeAttribute(('transition-style'));
-    }
+   
     
 },{threshold:0.7});
     imageObserver.observe(target[0]);
