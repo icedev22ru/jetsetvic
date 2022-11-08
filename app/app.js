@@ -36,3 +36,21 @@ const swiper = new Swiper('.swiper', {
     slide_title[0].innerHTML = slide_titles[swiper.activeIndex];
     console.log(slide_titles[swiper.activeIndex] + "|"+swiper.activeIndex);
   });
+
+
+
+  const swiper_lg = new Swiper('.swiper_lg', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,   
+    centeredSlides: true,
+  
+    pagination:{
+      el:'.slider_blue',
+    }
+  });
+
+  swiper.on('slideChange',(index)=>{
+    slide_title[0].innerHTML = slide_titles[swiper.activeIndex];
+    console.log(slide_titles[swiper.activeIndex] + "|"+swiper.activeIndex);
+  });
