@@ -140,6 +140,10 @@ align-items: center;
     object{
         width: 98%;
     }
+
+    img{
+        width: 98%;
+    }
 }
 
 .white_button{
@@ -148,23 +152,19 @@ align-items: center;
     box-sizing: border-box;
     border: none;
     background-color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: $mainAccientColor;
     font-weight: 500;
     border-radius: 33px;
-    padding: 0.625rem 1.4583rem;
+    padding: 0.8rem 1.6rem;
     img{
         margin-left: 10px;
         vertical-align: middle;
-        width: 1.0833rem;
-        height: 1.0833rem;
+        width: 1.3rem !important;
+        height: 1.3rem;
     }
 }
 
-.bt_hidden{
-    display: none;
-    margin: 0 auto;
-}
 
 
 .wawes{
@@ -194,7 +194,7 @@ align-items: center;
 /*-----------------------------  smart place---------------------*/
 .sub_heading{
 display: block;
-font-weight: 500;
+font-weight: 400;
 font-size: 1.9167rem;
 line-height: 125%;
 letter-spacing: -0.02em;

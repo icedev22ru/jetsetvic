@@ -16,9 +16,19 @@
     }
 
     .smartr img {
-        width: 85%;
+        width: 80%;
         filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
     }
+
+    /*smartplace_page*/
+    .contract_r{
+        object{
+            transform: translateY(-4.5rem);
+            width: 85%;
+        }
+    }
+
+    /*smartplace_page*/
 }
 
 
@@ -65,9 +75,26 @@
         margin-bottom: 1.5833rem;
     }
 
-    .hero_image object {
-        width: 60%;
+    .hero_image{
+        object {
+            width: 70%;
+        }
+        img{
+            width: 90%;
+        }
+    
     }
+
+
+    //smarplace_page
+    .contract_r{
+        img{
+            display: initial;
+            transform: translateY(-4.5rem);
+            width: 70%;
+        }
+    }
+    //smarplace_page
 
    
 }
@@ -242,6 +269,36 @@
       }
   
     //fotter
+
+
+    .smr_vault_item_wrapeer{
+        text-align: center;
+    }
+
+
+    /*smar_page*/
+    .contract_wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contract_l{
+        button{display: none;}
+    }
+    .contract_r img{
+        text-align: center;
+        transform: none;
+        width: 55%;
+        margin:  1.25rem auto;
+    }
+    .bt_hidden{
+        display: block;
+        margin: 1.9167rem auto;
+        
+    }
+    
+    /*smar_page*/
 }
 
 @media  screen and (max-width:544px) {

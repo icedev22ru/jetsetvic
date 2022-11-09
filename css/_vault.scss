@@ -48,3 +48,39 @@ object{
 
 
 
+/*smr_vault*/
+
+.smr_items_grid{
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.smr_vault_wrapper{
+    justify-content: center;
+}
+
+.smr_vault{
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
+.smr_vault_item_wrapeer {
+    display: inline-table;
+    vertical-align: super;
+    text-align: left;
+}
+.smr_vault_heading{
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.smr_vault_text {
+    display: block;
+    margin-top: 0.2083rem;
+    font-size: 1rem;
+    max-width: 20.8333rem;
+}
+/*smr_vault*/

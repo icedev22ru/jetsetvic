@@ -10,26 +10,15 @@ let slide_titles = [
 var slide_title = document.getElementsByClassName("slide_title_small");
 
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper_lg', {
     // Optional parameters
     direction: 'horizontal',
     loop: false,
   
     // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.next_slide',
-      prevEl: '.pre_slide',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
+      el: '.slider_blue',
+    }
   });
 
   swiper.on('slideChange',(index)=>{

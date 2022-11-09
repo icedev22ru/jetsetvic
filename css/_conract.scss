@@ -1,0 +1,58 @@
+#smart_contract{
+    padding: 8.3333rem 0px;
+}
+
+.contract_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 3.3333rem 0px 3.3333rem;
+    background-color: #F8F9FB;
+    border-radius: 35px;
+    color: $mainAccientColor;
+   
+}
+
+
+.contract_l{
+    h3{
+        font-size: 2rem;
+        font-weight: 500;
+        color: $mainAccientColor;
+    }
+
+    p{
+        font-size: 1rem;
+        max-width: 30.4167rem;
+        margin-top: 1.25rem;
+    }
+
+    button{
+       margin-top: 4.1667rem;
+    }
+}
+
+
+.contract_r{
+    text-align: right;
+    img{
+        display: block;
+        transform: translateY(-4.5rem);
+        width: 95%;
+    }
+}
+
+
+#partners{
+h2{
+    color: $mainAccientColor;
+    text-align: center;
+}    
+}
+
+.partners_logo_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4.1667rem 0px;
+}
+    
