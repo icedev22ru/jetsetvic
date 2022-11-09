@@ -348,6 +348,9 @@ nav a:hover::before {
   width: 1.0833rem;
   height: 1.0833rem;
 }
+.blue_button:hover {
+  background-color: #3848a3;
+}
 
 .slide_hide {
   display: none;
@@ -633,6 +636,9 @@ nav a:hover::before {
   color: white;
   font-size: 0.83rem;
   font-weight: 500;
+}
+.link_button:hover {
+  background-color: #3848a3;
 }
 
 #footer {
