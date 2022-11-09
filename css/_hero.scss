@@ -15,11 +15,16 @@ $mainAccientColor: #1D2265;
 
 
 .header{
-    padding: 10px 0px;
+    padding: 0.8333rem 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #202A60;
+}
+
+.logo img{
+width: 90px;
+height: 30px;
 }
 
 nav{

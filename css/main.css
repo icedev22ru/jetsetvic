@@ -35,11 +35,16 @@
 }
 
 .header {
-  padding: 10px 0px;
+  padding: 0.8333rem 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #202A60;
+}
+
+.logo img {
+  width: 90px;
+  height: 30px;
 }
 
 nav {
@@ -471,6 +476,10 @@ nav a:hover::before {
   filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.08));
 }
 
+.smartr-hidden {
+  display: none;
+}
+
 .slider_blue {
   text-align: center;
   margin-top: 24px;
@@ -685,6 +694,7 @@ nav a:hover::before {
 }
 
 .copy {
+  font-size: 0.5833rem;
   margin-top: 0.4167rem;
 }
 
@@ -832,11 +842,21 @@ ul {
   }
 }
 @media screen and (max-width: 969px) {
+  .header .logo img {
+    width: 67px;
+    height: 18px;
+  }
   .header nav {
     display: none;
   }
   .header #humb {
     display: block;
+  }
+  .header .humb_menu {
+    min-width: 20rem;
+  }
+  .header .humb_menu a {
+    font-size: 1.6rem;
   }
   .hero_wrapper {
     flex-wrap: wrap;
@@ -883,6 +903,29 @@ ul {
   }
   .smartplace_wrapper {
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .smartl p {
+    margin: 1.6667rem auto;
+  }
+  .smartl button {
+    margin: 0.4583rem auto;
+  }
+  .smartr {
+    display: none;
+  }
+  .smartr-hidden {
+    display: block;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .smart_button {
+    width: 35rem;
+    padding: 1rem 5.8333rem 1rem 0.7917rem;
+  }
+  #vault {
+    padding: 0;
   }
   .vault_wrapper {
     flex-wrap: wrap;
@@ -897,7 +940,42 @@ ul {
   .vaultr {
     display: none;
   }
+  .items-gird {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gird-item img {
+    display: block;
+    margin: 0 auto;
+    padding: 0.625rem 0px;
+  }
   .post_container {
     width: 100%;
+  }
+  .footer_wrapper {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
+  }
+  .footer_nav {
+    display: none;
+  }
+  .footer_social {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .fotterl {
+    width: 300px;
+    margin-top: 1.5417rem;
+  }
+}
+@media screen and (max-width: 544px) {
+  .container {
+    padding: 0px 15px;
+  }
+  html {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=main.css.map */

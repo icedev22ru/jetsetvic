@@ -140,3 +140,8 @@ var actives = document.getElementsByClassName('smart_button_active');
     imageObserver.observe(target[0]);
 
   /*PRALAX*/
+
+
+  /*AOS*/
+  AOS.init();
+  /*AOS*/

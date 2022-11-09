@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/transition-style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Jetset</title>
 </head>
 <body>
@@ -18,7 +20,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="smartplace.html" class="active">Smartplace</a></li>
+                <li><a href="./smartplace.html" class="active">Smartplace</a></li>
                 <li><a href="http://">Vault</a></li>
                 <li><a href="http://">How it works</a></li>
                 <li><a href="http://">About us</a></li>
@@ -29,7 +31,7 @@
             <img src="./assets/images/humb_new.svg" alt="" srcset="">
             <div class="humb_menu">
                 <ul>
-                <li><a href="http://#" class="active">Smartplace</a></li>
+                <li><a href="./smartplace.html" class="active">Smartplace</a></li>
                 <li><a href="http://">Vault</a></li>
                 <li><a href="http://">How it works</a></li>
                 <li><a href="http://">About us</a></li>
@@ -45,7 +47,7 @@
                 <p>Legally complaint online sales & acquisitions of tokenized private aircraft, yachts and cars secured by blockchain</p>
                 <button class="white_button">Request demo <img src="./assets/images/arrow-white.svg" alt="" srcset=""></button>
             </div>
-            <div class="hero_image">
+            <div class="hero_image animate__animated  animate__fadeIn">
                 <object data="./assets/images/horse.svg" type=""></object>
                 <button class="white_button bt_hidden">Request demo <img src="./assets/images/arrow-white.svg" alt="" srcset=""></button>
             </div>
@@ -92,12 +94,15 @@
     <div class="smartl">
         <h2>JETSET SMARTPLACE</h2>
         <p>Legally compliant private aircraft sales & acquisitions automated transactions secured by smart contracts</p>
-            <button  class="smart_button">Transparency</button>
-            <button  class="smart_button">Online communication</button>
-            <button  class="smart_button">Complience with law</button>
-            <button  class="smart_button">Step-by-step process</button>
-            <button  class="smart_button">Cost and time saving</button>
-            <button  class="blue_button">Request demo <img src="./assets/images/arrow_blue.svg" alt="" srcset=""></button>
+        <div class="smartr smartr-hidden">
+            <img src="./assets/images/imac.png" alt="" srcset="">
+        </div>
+            <button  class="smart_button"  data-aos="fade-right" data-aos-duration="2000">Transparency</button>
+            <button  class="smart_button" data-aos="fade-right" data-aos-duration="2300">Online communication</button>
+            <button  class="smart_button" data-aos="fade-right" data-aos-duration="2500">Complience with law</button>
+            <button  class="smart_button" data-aos="fade-right" data-aos-duration="2700">Step-by-step process</button>
+            <button  class="smart_button" data-aos="fade-right" data-aos-duration="2900">Cost and time saving</button>
+            <button  class="blue_button" data-aos="fade-right" data-aos-duration="3000">Request demo <img src="./assets/images/arrow_blue.svg" alt="" srcset=""></button>
     </div>    
     <div class="smartr">
     <img src="./assets/images/imac.png" alt="" srcset="">
@@ -196,7 +201,7 @@
             <div class="container">
             <div class="footer_wrapper">
                 <div class="fotterl">
-                    <img src="./assets/images/Logo.svg" alt="" srcset="">
+                   <div class="logo"><img src="./assets/images/Logo.svg" alt="" srcset=""></div>
                     <div class="copy">© 2022 Jetset | All Rights Reserved</div>
                 </div>
                 <div class="fotterr">
@@ -236,6 +241,7 @@
     <script src="./app/practicles.js"></script>
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./app/app.js"></script>
 </body>
 </html>
