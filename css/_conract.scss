@@ -5,6 +5,7 @@
 .contract_wrapper{
     display: flex;
     justify-content: space-between;
+    align-items:center;
     padding: 1.875rem 3.3333rem 0px 3.3333rem;
     background-color: #F8F9FB;
     border-radius: 35px;
@@ -27,7 +28,7 @@
     }
 
     button{
-       margin-top: 4.1667rem;
+       margin-top: 2rem;
     }
 }
 

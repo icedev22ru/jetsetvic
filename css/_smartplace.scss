@@ -110,6 +110,20 @@
 
 }
 
+.smart_button_out_icon {
+    display: block;
+    background-color: white;
+    color: $mainAccientColor;
+    border: 1px solid #E3E4EA;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0.4583rem 5.8333rem 0.4583rem 0.7917rem;
+    width: 20.8333rem;
+    margin: 0.4167rem 0px;
+
+}
+
 .smart_button_active{
     background-color: $mainAccientColor;
     color: white;
@@ -119,7 +133,8 @@
 .slide_title{
     text-align: center;
     font-size: 1rem;
-    margin-top: 23px;
+    margin-top: 0.9583rem;
+    max-width:847px
 }
 
 
@@ -180,7 +195,7 @@
     border-radius: 10px;
     border: 1px solid #E3E4EA;
     padding: 15px 70px;
-
+    max-width:300px
 }
 
 .slider_pagination .swiper-pagination{
