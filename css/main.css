@@ -225,10 +225,11 @@ nav a:hover::before {
   letter-spacing: -0.02em;
   text-align: left;
   line-height: 230%;
+  max-width: 37.1667rem !important;
 }
 
-.smartplace_page_hero_p {
-  max-width: 35.1667rem !important;
+.smr_p_fix {
+  max-width: 24.1667rem !important;
 }
 
 /*-----------------------------  smart place---------------------*/
@@ -906,10 +907,6 @@ ul {
   .vaultr object {
     width: 80%;
   }
-  .smartr img {
-    width: 80%;
-    filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
-  }
   /*smartplace_page*/
   .contract_r object {
     transform: translateY(-4.5rem);
@@ -935,10 +932,6 @@ ul {
   }
   .vaultr object {
     width: 75%;
-  }
-  .smartr img {
-    width: 75%;
-    filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
   }
 }
 @media screen and (max-width: 1281px) {
@@ -1130,5 +1123,9 @@ ul {
   }
   html {
     font-size: 10px;
+  }
+  .smartplace_page_hero_ul {
+    text-align: left;
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=main.css.map */

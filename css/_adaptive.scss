@@ -15,10 +15,7 @@
         width: 80%;
     }
 
-    .smartr img {
-        width: 80%;
-        filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
-    }
+    
 
     /*smartplace_page*/
     .contract_r{
@@ -57,11 +54,6 @@
         width: 75%;
     }
 
-    .smartr img {
-        width: 75%;
-        filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 16px);
-    }
-   
    
 }
 
@@ -101,7 +93,7 @@
     
     }
 
-   
+
     //smarplace_page
 
    
@@ -325,5 +317,10 @@
 
     html{
         font-size: 10px;
+    }
+
+    .smartplace_page_hero_ul{
+        text-align: left;
+        font-size: 1.1rem;
     }
 }
