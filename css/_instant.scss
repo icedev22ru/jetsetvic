@@ -1,0 +1,69 @@
+#instant{
+    padding: 4.1667rem 0px;
+    color: $mainAccientColor;
+}
+
+.instant_wrapper{
+display: flex;
+justify-content: center;
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 890px;
+}
+}
+
+.instant_l{
+div:not(:first-child){
+    margin-top: 2.9167rem;
+}
+h4{
+    margin-bottom: 0.8333rem;
+}
+}
+
+.instant_r{
+    text-align: right;
+    
+    img{
+        width: 90%;
+    }
+}
+
+.instant_contract_l{
+    h3{
+        font-size: 2rem;
+        font-weight: 500;
+        color: $mainAccientColor;
+    }
+
+    p{
+        font-size: 1rem;
+        max-width: 33.4167rem;
+        margin-top: 1.25rem;
+    }
+
+    button{
+       margin-top: 2rem;
+    }
+
+    img{
+    width: 70%;
+    }
+}
+
+.instant_contract_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1.875rem 3.3333rem 1.8rem 3.3333rem;
+    background-color: #F8F9FB;
+    border-radius: 35px;
+    color: $mainAccientColor;
+    background-image: url('../assets/images/iphone12.svg');
+    background-repeat: no-repeat;
+    background-position:  bottom 0px right 0px;
+    background-size: contain;
+
+}
