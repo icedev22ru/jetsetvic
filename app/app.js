@@ -8,6 +8,7 @@ let slide_titles = [
 ];
 
 var slide_title = document.getElementsByClassName("slide_title");
+var slide_title_phone = document.getElementsByClassName("slide_title_small"); 
 
 const swiper_lg = new Swiper('.swiper_lg', {
     // Optional parameters
@@ -25,6 +26,27 @@ const swiper_lg = new Swiper('.swiper_lg', {
     
   });
 
+
+  const swiper_mobile = new Swiper('.swiper_smartphone', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: false,
+     // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.next_slide',
+    prevEl: '.pre_slide',
+  }
+  });
+
+  swiper_mobile.on('slideChange',(index)=>{
+    slide_title_phone[0].innerHTML =slide_titles[swiper_mobile.activeIndex];
+    
+  });
 
 
 /*ITEMS */
