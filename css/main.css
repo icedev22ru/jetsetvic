@@ -216,10 +216,11 @@ nav a:hover::before {
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 230%;
+  text-align: left;
 }
 
 .smartplace_page_hero_p {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.25rem;
   letter-spacing: -0.02em;
@@ -712,7 +713,7 @@ nav a:hover::before {
   color: #1D2265;
 }
 .contract_l p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 30.4167rem;
   margin-top: 1.25rem;
 }
@@ -739,6 +740,11 @@ nav a:hover::before {
   justify-content: space-around;
   align-items: center;
   margin: 4.1667rem 0px;
+}
+.partners_logo_wrapper img {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #footer {
@@ -1025,6 +1031,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    margin-top: 0.4167rem;
   }
   .smartl p {
     margin: 1.6667rem auto;
@@ -1093,6 +1100,12 @@ ul {
   .smr_vault_item_wrapeer {
     text-align: center;
   }
+  .smr_items_grid {
+    grid-template-columns: 1fr;
+  }
+  .smartplace_page_hero_p {
+    font-size: 1.2rem;
+  }
   /*smar_page*/
   .contract_wrapper {
     flex-wrap: wrap;
@@ -1119,11 +1132,17 @@ ul {
     text-align: center;
     max-width: 100% !important;
   }
+  .smartplace_page_hero_ul {
+    font-size: 1.2rem;
+  }
   .smartl {
     display: none;
   }
   .smart_mobile {
     display: block;
+  }
+  .partners_logo_wrapper {
+    flex-wrap: wrap;
   }
   /*smar_page*/
 }
@@ -1137,5 +1156,11 @@ ul {
   .smartplace_page_hero_ul {
     text-align: left;
     font-size: 1.1rem;
+  }
+  .swiper_smartphone {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */

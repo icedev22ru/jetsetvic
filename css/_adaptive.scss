@@ -176,6 +176,7 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
+        margin-top: 0.4167rem;
     }
 
     .smartl{
@@ -275,6 +276,13 @@
         text-align: center;
     }
 
+    .smr_items_grid{
+        grid-template-columns: 1fr;
+    }
+
+    .smartplace_page_hero_p{
+        font-size: 1.2rem;
+    }
 
     /*smar_page*/
     .contract_wrapper{
@@ -307,6 +315,9 @@
         max-width: 100% !important;
     }
 
+    .smartplace_page_hero_ul{
+        font-size: 1.2rem;
+    }
 
     .smartl{
         display: none;
@@ -314,7 +325,14 @@
     .smart_mobile { 
         display: block;
     }
+
+
+    .partners_logo_wrapper{
+        flex-wrap: wrap;
+    }
     /*smar_page*/
+
+
 }
 
 @media  screen and (max-width:544px) {
@@ -330,4 +348,12 @@
         text-align: left;
         font-size: 1.1rem;
     }
+
+    .swiper_smartphone {
+        width: 400px;
+        height: 250px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
 }
