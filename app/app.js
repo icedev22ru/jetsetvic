@@ -1,16 +1,15 @@
 let slide_titles = [
-    "Slide",
-    "Transparency",
-    "Online communication",
-    "Compliance with law",
-    "Step-by-step process",
-    "Cost and time saving",
+    "Online negotiations",
+    "Structured deal flow",
+    "Pre-drafted legal agreements",
+    "Digital signatures",
+    "Escrow smart contracts",
+    "Closing",
 ];
 
-var slide_title = document.getElementsByClassName("slide_title_small");
+var slide_title = document.getElementsByClassName("slide_title");
 
-
-const swiper = new Swiper('.swiper_lg', {
+const swiper_lg = new Swiper('.swiper_lg', {
     // Optional parameters
     direction: 'horizontal',
     loop: false,
@@ -21,9 +20,9 @@ const swiper = new Swiper('.swiper_lg', {
     }
   });
 
-  swiper.on('slideChange',(index)=>{
-    slide_title[0].innerHTML = slide_titles[swiper.activeIndex];
-    console.log(slide_titles[swiper.activeIndex] + "|"+swiper.activeIndex);
+  swiper_lg.on('slideChange',(index)=>{
+    slide_title[0].innerHTML =slide_titles[swiper_lg.activeIndex];
+    
   });
 
 
@@ -33,8 +32,10 @@ const swiper = new Swiper('.swiper_lg', {
 var actives = document.getElementsByClassName('smart_button_active'); 
 
   var item1 = document.getElementById("first_item");
-  if(item6 != null){
+  
+  if(item1 != null){
   item1.addEventListener('click', function(){
+    console.log(item1);
     console.log("first");
     actives[0].classList.remove('smart_button_active');
     item1.classList.add('smart_button_active');
@@ -44,7 +45,7 @@ var actives = document.getElementsByClassName('smart_button_active');
 
 
   var item2 = document.getElementById("second_item");
-  if(item6 != null){
+  if(item2 != null){
   item2.addEventListener('click', function(){
   console.log("second");
   actives[0].classList.remove('smart_button_active');
@@ -54,7 +55,7 @@ var actives = document.getElementsByClassName('smart_button_active');
 }
 
   var item3 = document.getElementById("third_item");
-  if(item6 != null){
+  if(item3 != null){
   item3.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item3.classList.add('smart_button_active');
@@ -64,7 +65,7 @@ var actives = document.getElementsByClassName('smart_button_active');
 
 
   var item4 = document.getElementById("four_item");
-  if(item6 != null){
+  if(item4 != null){
   item4.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item4.classList.add('smart_button_active');
@@ -74,7 +75,7 @@ var actives = document.getElementsByClassName('smart_button_active');
 
 
   var item5 = document.getElementById("five_item");
-  if(item6 != null){
+  if(item5 != null){
   item5.addEventListener('click', function(){
   actives[0].classList.remove('smart_button_active');
   item5.classList.add('smart_button_active');
@@ -111,11 +112,16 @@ var actives = document.getElementsByClassName('smart_button_active');
   });
   /*MENU*/
 
+  /*AOS*/
+  AOS.init();
+  /*AOS*/
 
   /*PRALAX*/
   var target = document.getElementsByClassName('prlx-down');
   var target2 = document.getElementsByClassName('prlx-down-mobile');
-  
+
+
+  if(target.length != 0 && target2.length != 0){
   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting) {
@@ -123,14 +129,11 @@ var actives = document.getElementsByClassName('smart_button_active');
        target[0].setAttribute('transition-style','in:wipe:down');//transition-style="in:wipe:down"  //in:wipe:up
     }
     });
+    
    
     
 },{threshold:0.7});
-    imageObserver.observe(target[0]);
-
+  imageObserver.observe(target[0]);
+}
   /*PRALAX*/
 
-
-  /*AOS*/
-  AOS.init();
-  /*AOS*/
