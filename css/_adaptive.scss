@@ -94,6 +94,14 @@
             width: 70%;
         }
     }
+
+
+    .sub_heading{
+        font-size: 1.6rem;
+    
+    }
+
+   
     //smarplace_page
 
    
@@ -161,7 +169,7 @@
         }
 
         .tokl button{
-            margin: 0 auto;
+            margin: 2.0833rem auto;
         }
 
         .tokr{
@@ -286,6 +294,10 @@
     .contract_l{
         button{display: none;}
     }
+
+    .contract_r{
+        text-align: center;
+    }
     .contract_r img{
         text-align: center;
         transform: none;
@@ -298,6 +310,11 @@
         
     }
     
+    .smartplace_page_hero_p{
+        text-align: center;
+        max-width: 100% !important;
+    }
+
     /*smar_page*/
 }
 

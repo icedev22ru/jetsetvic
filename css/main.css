@@ -212,10 +212,10 @@ nav a:hover::before {
 
 .smartplace_page_hero_ul {
   margin-left: 0.8333rem;
-  margin-top: 1.25rem;
+  margin-top: 2.25rem;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 170%;
+  font-size: 0.9rem;
+  line-height: 230%;
 }
 
 .smartplace_page_hero_p {
@@ -224,10 +224,11 @@ nav a:hover::before {
   line-height: 1.25rem;
   letter-spacing: -0.02em;
   text-align: left;
+  line-height: 230%;
 }
 
 .smartplace_page_hero_p {
-  max-width: 24.1667rem !important;
+  max-width: 35.1667rem !important;
 }
 
 /*-----------------------------  smart place---------------------*/
@@ -538,6 +539,17 @@ nav a:hover::before {
   opacity: 1;
 }
 
+/*SMR*/
+.smr_secure_wrapper {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 500;
+  filter: blur(2px);
+  padding: 4.1667rem 0px;
+}
+
+/*SMR*/
 #vault {
   color: #1D2265;
   padding: 3.3333rem 0px;
@@ -948,6 +960,9 @@ ul {
     transform: translateY(-4.5rem);
     width: 70%;
   }
+  .sub_heading {
+    font-size: 1.6rem;
+  }
 }
 @media screen and (max-width: 969px) {
   .header .logo img {
@@ -1004,7 +1019,7 @@ ul {
     margin: 1rem auto;
   }
   .tokenization_wrapper .tokl button {
-    margin: 0 auto;
+    margin: 2.0833rem auto;
   }
   .tokenization_wrapper .tokr {
     display: none;
@@ -1090,6 +1105,9 @@ ul {
   .contract_l button {
     display: none;
   }
+  .contract_r {
+    text-align: center;
+  }
   .contract_r img {
     text-align: center;
     transform: none;
@@ -1099,6 +1117,10 @@ ul {
   .bt_hidden {
     display: block;
     margin: 1.9167rem auto;
+  }
+  .smartplace_page_hero_p {
+    text-align: center;
+    max-width: 100% !important;
   }
   /*smar_page*/
 }
