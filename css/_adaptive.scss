@@ -89,7 +89,7 @@
 
 
     .sub_heading{
-        font-size: 1.6rem;
+        font-size: 1.3333rem;
     
     }
 
@@ -139,9 +139,13 @@
 
     //TOKEN
     .tokenization_wrapper{
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         justify-content: center;
         text-align: center;
+
+        .tokr{
+            text-align: center;
+        }
 
         .slide_hide {
             position: relative;
@@ -164,9 +168,7 @@
             margin: 2.0833rem auto;
         }
 
-        .tokr{
-            display: none;
-        }
+      
     }
     //TOKEN
 

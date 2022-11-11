@@ -1,10 +1,10 @@
 let slide_titles = [
-    "Online negotiations",
-    "Structured deal flow",
-    "Pre-drafted legal agreements",
-    "Digital signatures",
-    "Escrow smart contracts",
-    "Closing",
+    "Negotiatie the aircraft price and deal's terms and conditions online",
+    "You are advised on all necessary actions of parties to effectevely complete the deal. ",
+    "Based on approved terms and condition, all legal agreements as well as other documents are automatically drafted for you",
+    "Enter into a deal only with confirmed counterparty",
+    "Funds transfers in the transaction are securely controlled by smart contracts to assure that all deals covenants are met",
+    "The funds are released only completing of all closing obligations by both parties ",
 ];
 
 var slide_title = document.getElementsByClassName("slide_title");
@@ -134,19 +134,18 @@ var actives = document.getElementsByClassName('smart_button_active');
   });
   /*MENU*/
 
-  /*AOS*/
-  AOS.init();
-  /*AOS*/
+ 
 
   /*PRALAX*/
   var target = document.getElementsByClassName('prlx-down');
-  var target2 = document.getElementsByClassName('prlx-down-mobile');
+  //var target2 = document.getElementsByClassName('prlx-down-mobile');
+  console.log(target);
 
-
-  if(target.length != 0 && target2.length != 0){
+  if(target.length != 0){
   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach((entry) => {
       if(entry.isIntersecting) {
+      
        target[0].style.opacity = 1.0;
        target[0].setAttribute('transition-style','in:wipe:down');//transition-style="in:wipe:down"  //in:wipe:up
     }
@@ -159,3 +158,6 @@ var actives = document.getElementsByClassName('smart_button_active');
 }
   /*PRALAX*/
 
+ /*AOS*/
+ AOS.init();
+ /*AOS*/

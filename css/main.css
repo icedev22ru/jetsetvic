@@ -964,7 +964,7 @@ ul {
     width: 70%;
   }
   .sub_heading {
-    font-size: 1.6rem;
+    font-size: 1.3333rem;
   }
 }
 @media screen and (max-width: 969px) {
@@ -1002,8 +1002,11 @@ ul {
     text-align: center;
   }
   .tokenization_wrapper {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
+    text-align: center;
+  }
+  .tokenization_wrapper .tokr {
     text-align: center;
   }
   .tokenization_wrapper .slide_hide {
@@ -1023,9 +1026,6 @@ ul {
   }
   .tokenization_wrapper .tokl button {
     margin: 2.0833rem auto;
-  }
-  .tokenization_wrapper .tokr {
-    display: none;
   }
   .smartplace_wrapper {
     flex-wrap: wrap;
