@@ -8,10 +8,19 @@ display: flex;
 justify-content: center;
 
 p{
-    font-size: 1rem;
     font-weight: 400;
     max-width: 890px;
+    @media screen and (min-width: 969px) {
+        font-size: 1.2rem;
+    }
 }
+
+@media screen and (max-width:969px) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
 }
 
 .instant_l{
@@ -20,6 +29,11 @@ div:not(:first-child){
 }
 h4{
     margin-bottom: 0.8333rem;
+}
+
+@media  screen and(max-width:969px) {
+    text-align: center;
+    margin-top: 1.25rem;
 }
 }
 
@@ -39,7 +53,6 @@ h4{
     }
 
     p{
-        font-size: 1rem;
         max-width: 33.4167rem;
         margin-top: 1.25rem;
     }
@@ -65,5 +78,56 @@ h4{
     background-repeat: no-repeat;
     background-position:  bottom 0px right 0px;
     background-size: contain;
+    @media  screen and(max-width:969px) {
+    background-image: none;
 
+    }
+}
+
+.instant_image{
+    text-align: right;
+    object{
+        width: 98%;
+    }
+
+    img{
+        width: 98%;
+    }
+    @media screen and(max-width:969px) {
+        text-align: center;
+       }
+}
+
+.hidden_block{
+    display: none;
+}
+
+
+.instant_page_hero_ul{
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: -0.02em;
+text-align: left;
+line-height: 230%;
+margin-top: 1.25rem;
+max-width: 37.1667rem !important;
+@media screen and(max-width:969px) {
+    display: block;
+ max-width: 100%;
+ font-size: 1.2rem;
+ margin: 35px auto;
+}
+}
+
+
+.instant_sub_heading{
+    display: block;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    @media screen and(max-width:969px) {
+     margin-bottom:1.25rem;
+    }
 }
