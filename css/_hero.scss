@@ -123,6 +123,7 @@ align-items: center;
 }
 
 .hero_title{
+    z-index: 2000;
     width:39.5833rem;
     p{
         margin-top: 1.25rem;
@@ -151,9 +152,9 @@ align-items: center;
     position: relative;
     box-sizing: border-box;
     border: none;
-    background-color: white;
+    background-color: #363B76;
     font-size: 1.2rem;
-    color: $mainAccientColor;
+    color: white;
     font-weight: 500;
     border-radius: 33px;
     padding: 0.8rem 1.6rem;
@@ -162,6 +163,12 @@ align-items: center;
         vertical-align: middle;
         width: 1.3rem !important;
         height: 1.3rem;
+    }
+    &:hover{
+        img{
+            margin-left: 0.8rem;
+            transition: margin-left .6s;
+        }
     }
 }
 

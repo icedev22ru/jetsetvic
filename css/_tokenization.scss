@@ -99,6 +99,10 @@ img{
     }
     &:hover{
       background-color: #3848a3;
+      img{
+        margin-left: 0.8rem;
+        transition: margin-left .6s;
+      }
     }
 }
 

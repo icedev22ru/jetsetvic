@@ -141,6 +141,7 @@ nav a:hover::before {
 }
 
 .hero_title {
+  z-index: 2000;
   width: 39.5833rem;
 }
 .hero_title p {
@@ -167,9 +168,9 @@ nav a:hover::before {
   position: relative;
   box-sizing: border-box;
   border: none;
-  background-color: white;
+  background-color: #363B76;
   font-size: 1.2rem;
-  color: #1D2265;
+  color: white;
   font-weight: 500;
   border-radius: 33px;
   padding: 0.8rem 1.6rem;
@@ -179,6 +180,10 @@ nav a:hover::before {
   vertical-align: middle;
   width: 1.3rem !important;
   height: 1.3rem;
+}
+.white_button:hover img {
+  margin-left: 0.8rem;
+  transition: margin-left 0.6s;
 }
 
 .wawes {
@@ -352,6 +357,10 @@ nav a:hover::before {
 }
 .blue_button:hover {
   background-color: #3848a3;
+}
+.blue_button:hover img {
+  margin-left: 0.8rem;
+  transition: margin-left 0.6s;
 }
 
 .bt_hidden {
