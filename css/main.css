@@ -955,6 +955,16 @@ nav a:hover::before {
   -webkit-clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
 }
+@media screen and (max-width: 969px) {
+  .deliver_l h2 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 544px) {
+  .deliver_l h2 {
+    font-size: 1.3rem;
+  }
+}
 
 .deliver_r {
   background-color: rgb(248, 249, 251);
@@ -973,6 +983,16 @@ nav a:hover::before {
 .deliver_r span {
   display: block;
   font-size: 2.6667rem;
+}
+@media screen and (max-width: 969px) {
+  .deliver_r span {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 544px) {
+  .deliver_r span {
+    font-size: 1.3rem;
+  }
 }
 
 #about_standfor {
