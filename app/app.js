@@ -170,6 +170,32 @@ var actives = document.getElementsByClassName('smart_button_active');
 }
   /*PRALAX*/
 
+
+
+  /*TABS*/
+  const tab_buttons = document.querySelectorAll('.quest_tabs_item');
+  const active_buttons = document.getElementsByClassName('active_tab');
+  const active_tabs = document.getElementsByClassName('tab_data_active');
+  
+  tab_buttons.forEach(function(item){
+    item.addEventListener('click',function(){
+      
+      let cur_btn = item;
+      let tabid = cur_btn.getAttribute('data-tab');
+      let cur_tab = document.querySelector(tabid);
+
+      active_buttons[0].classList.remove('active_tab');
+      cur_btn.classList.add('active_tab');
+
+      active_tabs[0].classList.remove('tab_data_active');
+      cur_tab.classList.add('tab_data_active');
+
+    });
+  });
+
+ 
+  /*TABS*/
+
  /*AOS*/
  AOS.init();
  /*AOS*/
