@@ -1065,6 +1065,9 @@ nav a:hover::before {
 .quest_tab_item p {
   margin-top: 0.625rem;
 }
+.quest_tab_item details[open] .quest_tab_item::before {
+  background-image: url("../assets/images/open_tab_icon.svg");
+}
 
 .quest_tab_item::before {
   position: absolute;
@@ -1075,10 +1078,6 @@ nav a:hover::before {
   background-position: center;
   width: 28px;
   height: 28px;
-}
-
-details[open] .quest_tab_item::before {
-  background-image: url("../assets/images/open_tab_icon.svg");
 }
 
 details summary::-webkit-details-marker {

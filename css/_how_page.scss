@@ -63,6 +63,14 @@
         p{
             margin-top: 0.625rem;
         }
+
+        details[open] {
+            .quest_tab_item::before{
+                background-image: url('../assets/images/open_tab_icon.svg');
+            }
+            
+        }
+    
     }
 
 
@@ -78,13 +86,7 @@
         height: 28px;
     }
 
-    details[open] {
-        .quest_tab_item::before{
-            background-image: url('../assets/images/open_tab_icon.svg');
-        }
-        
-    }
-
+   
    
 
     details summary::-webkit-details-marker {
