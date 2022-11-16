@@ -24,7 +24,7 @@
     .how_hero_image{
         position: relative;
         text-align: center;
-        z-index: 7000;
+        z-index: 2000;
         img{
             width: 98%;
         }
@@ -55,6 +55,7 @@
         margin-bottom: 0.8333rem;
         border:1px solid #E3E4EA;
         border-radius: 10px;
+        box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
         summary{
             font-weight: 500;
             font-size: 24px;
@@ -62,6 +63,8 @@
 
         p{
             margin-top: 0.625rem;
+            font-size: 1rem;
+            line-height: 234%;
         }
 
         details[open] {
@@ -69,6 +72,10 @@
                 background-image: url('../assets/images/open_tab_icon.svg');
             }
             
+        }
+
+        @media screen and(max-width:1281px) {
+            width: 43rem;
         }
     
     }
