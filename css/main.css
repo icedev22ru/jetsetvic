@@ -1171,20 +1171,18 @@ nav a:hover::before {
 .quest_tab_item {
   position: relative;
   list-style: none;
-  width: 80%;
-  padding: 0.8333rem 1.6667rem;
   background-color: white;
-  margin-left: 4.1667rem;
-  margin-bottom: 0.8333rem;
-  border: 1px solid #E3E4EA;
+  margin-left: 50px;
+  margin-bottom: 1.4583rem;
   border-radius: 10px;
-  box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
 }
 .quest_tab_item summary {
+  padding-bottom: 20px;
   font-weight: 500;
-  font-size: 24px;
-  width: 80%;
+  font-size: 1rem;
+  width: 100%;
   display: inline;
+  border-bottom: 1px solid #E3E4EA;
 }
 .quest_tab_item p {
   margin-top: 0.625rem;
@@ -1238,7 +1236,7 @@ details > summary {
   padding: 0.9583rem 13.5417rem 0.9583rem 1.125rem;
   border-radius: 10px;
   margin-top: 0.3333rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #1D2265;
 }
 .quest_tabs a::before {
