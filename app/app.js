@@ -7,8 +7,19 @@ let slide_titles = [
     "The funds are released only completing of all closing obligations by both parties ",
 ];
 
+
+let slide_buttons = [
+  "Online negotiations",
+  "Structured deal flow",
+  "Pre-drafted legal agreements",
+  "Digital signatures",
+  "Escrow smart contracts",
+  "Closing"
+];
+
 var slide_title = document.getElementsByClassName("slide_title");
-var slide_title_phone = document.getElementsByClassName("slide_title_small"); 
+var slide_title_phone = document.getElementsByClassName("p_title"); 
+var slide_button = document.getElementsByClassName("slide_title_small");
 
 const swiper_lg = new Swiper('.swiper_lg', {
     // Optional parameters
@@ -44,6 +55,7 @@ const swiper_lg = new Swiper('.swiper_lg', {
   });
 
   swiper_mobile.on('slideChange',(index)=>{
+    slide_button[0].innerHTML = slide_buttons[swiper_mobile.activeIndex];
     slide_title_phone[0].innerHTML =slide_titles[swiper_mobile.activeIndex];
     
   });

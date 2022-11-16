@@ -1,5 +1,5 @@
 #smart_contract{
-    padding: 5rem 0px;
+    padding: 3rem 0px;
 }
 
 .contract_wrapper{
@@ -22,13 +22,16 @@
     }
 
     p{
-        font-size: 1rem;
+        font-size: 1.2rem;
         max-width: 30.4167rem;
         margin-top: 1.25rem;
     }
 
     button{
        margin-top: 2rem;
+       @media screen and(max-width:1601px) {
+        margin-top: 6rem;
+       }
     }
 }
 
@@ -56,7 +59,7 @@ h2{
     align-items: center;
     margin: 4.1667rem 0px;
     img{
-        width: 30%;
+        width: 20%;
         object-fit: cover;
     }
 }
