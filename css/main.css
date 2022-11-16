@@ -856,7 +856,7 @@ nav a:hover::before {
 .instant_contract_l p {
   max-width: 33.4167rem;
   margin-top: 1.25rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .instant_contract_l button {
   margin-top: 2rem;
@@ -956,6 +956,9 @@ nav a:hover::before {
   text-align: center;
   color: #1D2265;
 }
+#about_expertise p {
+  font-size: 1.2rem;
+}
 
 .expertise_wrapper {
   display: flex;
@@ -968,6 +971,10 @@ nav a:hover::before {
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 2.0833rem;
   }
+}
+
+.expertise_title p {
+  font-size: 1.2rem;
 }
 
 .expertise_item {
@@ -1056,6 +1063,11 @@ nav a:hover::before {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 5.8333rem;
 }
+@media screen and (max-width: 544px) {
+  .standfor_wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 
 .standfor_item {
   text-align: center;
@@ -1065,14 +1077,33 @@ nav a:hover::before {
   font-weight: 600;
   margin: 1.875rem 0px;
 }
+@media screen and (max-width: 544px) {
+  .standfor_item .standfor_title {
+    font-size: 1.5rem;
+  }
+}
 .standfor_item .standfor_text {
   font-size: 1.2rem;
   font-weight: 300;
   max-width: 27.9167rem;
   margin: 0 auto;
 }
+@media screen and (max-width: 969px) {
+  .standfor_item .standfor_text {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 544px) {
+  .standfor_item .standfor_text {
+    font-size: 1.5rem;
+  }
+}
 .standfor_item img {
   width: 10%;
+}
+
+#about_missions p {
+  font-size: 1.2rem;
 }
 
 .how_hero_wrapper {
@@ -1085,10 +1116,9 @@ nav a:hover::before {
 
 .how_hero_title {
   text-align: center;
-  width: 39.5833rem;
 }
 .how_hero_title p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: 1.4167rem;
   margin-bottom: 1.4167rem;
 }
@@ -1151,7 +1181,11 @@ nav a:hover::before {
   display: none;
 }
 
-.quest_tab_item::before {
+#quest {
+  padding-bottom: 4.1667rem;
+}
+
+.quest_tab_control {
   position: absolute;
   right: 20px;
   content: "";

@@ -1,3 +1,10 @@
+#about_missions{
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+
 .how_hero_wrapper{
     display: flex;
     margin-top: 4.1667rem;
@@ -6,11 +13,10 @@
     align-items: center;
     }
     
-    .how_hero_title{
+.how_hero_title{
         text-align: center;
-        width:39.5833rem;
         p{
-            font-size: 1rem;
+            font-size: 1.2rem;
             margin-top: 1.4167rem;
             margin-bottom:1.4167rem;
         }
@@ -21,7 +27,7 @@
     }
     
     
-    .how_hero_image{
+.how_hero_image{
         position: relative;
         text-align: center;
         z-index: 2000;
@@ -39,13 +45,13 @@
     }
 
 
-    .quest_wrapper{
+.quest_wrapper{
         display: flex;
         color: $mainAccientColor;
     }
 
 
-    .quest_tab_item{
+.quest_tab_item{
         position: relative;
         list-style: none;
        width: 80%;
@@ -85,19 +91,25 @@
     
     }
 
+#quest{
+    padding-bottom: 4.1667rem;
+}
 
 
-    .quest_tab_item::before{
-        position: absolute;
-        right: 20px;
-        content: '';
-        display: block;
-        background-image: url('../assets/images/closed_tab_icon.svg');
-        background-position: center;
-        width: 28px;
-        height: 28px;
-    }
-
+.quest_tab_control{
+    position: absolute;
+    right: 20px;
+    content: '';
+    display: block;
+    background-image: url('../assets/images/closed_tab_icon.svg');
+    background-position: center;
+    width: 28px;
+    height: 28px;
+}
+   
+.quest_tab_item > details[open] {
+   
+}
    
    
 
