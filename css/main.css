@@ -164,16 +164,17 @@ nav a:hover::before {
 }
 
 .white_button {
-  display: block;
+  display: inline-block;
   position: relative;
   box-sizing: border-box;
   border: none;
   background-color: #363B76;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   font-weight: 500;
   border-radius: 33px;
   padding: 0.8rem 1.6rem;
+  margin-top: 3.3333rem;
 }
 .white_button img {
   margin-left: 10px;
