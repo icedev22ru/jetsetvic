@@ -104,5 +104,13 @@ a{text-decoration: none;}
     }
 }
 
+.video_wrapper{
+    width: 100%;
+    height: auto;
+    margin: 0 auto; // выравнивает по центру по вертикали
+    display: block;
+    max-width: 500px;
+}
+
 
 @import "./adaptive";

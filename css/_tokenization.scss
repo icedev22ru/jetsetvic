@@ -35,6 +35,14 @@
 }
 
 
+.smartplace_page_tokr{
+  position: relative;
+  text-align: center;
+img{
+  width: 100%;
+}
+}
+
 .tokr{
     position: relative;
     text-align: right;
@@ -115,4 +123,17 @@ img{
 .slide_hide{
     display: none;
     width: 95%;
+}
+
+
+.index_tokr{
+  position: relative;
+  text-align: right;
+img{
+  width: 90%;
+}
+
+@media screen and (max-width:969px){
+  display: none;
+}
 }
