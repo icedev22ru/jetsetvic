@@ -1018,7 +1018,8 @@ nav a:hover::before {
 }
 .how_hero_title p {
   font-size: 1rem;
-  margin-top: 1.25rem;
+  margin-top: 1.4167rem;
+  margin-bottom: 1.4167rem;
 }
 .how_hero_title button {
   margin-top: 4.1667rem;
@@ -1026,13 +1027,18 @@ nav a:hover::before {
 }
 
 .how_hero_image {
+  position: relative;
   text-align: center;
-}
-.how_hero_image object {
-  width: 98%;
+  z-index: 7000;
 }
 .how_hero_image img {
   width: 98%;
+}
+.how_hero_image iframe {
+  position: absolute;
+  right: 109px;
+  bottom: 50px;
+  width: 72%;
 }
 
 #footer {
