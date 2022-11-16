@@ -41,15 +41,51 @@
 
     .quest_wrapper{
         display: flex;
-color: $mainAccientColor;
+        color: $mainAccientColor;
     }
 
 
     .quest_tab_item{
+        position: relative;
         list-style: none;
-       width: 100%;
+       width: 700px;
+       padding: 20px 40px ;
         background-color: white;
+        margin-left:4.1667rem ;
+        margin-bottom: 0.8333rem;
+        border:1px solid #E3E4EA;
+        border-radius: 10px;
+        summary{
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        p{
+            margin-top: 0.625rem;
+        }
     }
+
+
+
+    .quest_tab_item::before{
+        position: absolute;
+        right: 20px;
+        content: '';
+        display: block;
+        background-image: url('../assets/images/closed_tab_icon.svg');
+        background-position: center;
+        width: 28px;
+        height: 28px;
+    }
+
+    details[open] {
+        .quest_tab_item::before{
+            background-image: url('../assets/images/open_tab_icon.svg');
+        }
+        
+    }
+
+   
 
     details summary::-webkit-details-marker {
         display: none
