@@ -21,6 +21,9 @@
 .footer_wrapper{
     display: flex;
     justify-content: space-between;
+    @media screen and(max-width:444px) {
+        width: 100% !important;
+    }
 }
 
 .fotterl{

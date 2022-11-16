@@ -259,7 +259,7 @@ nav a:hover::before {
 }
 .tokl ul {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   max-width: 32.25rem;
   margin-top: 1.6667rem;
   padding: 0px 0.9583rem;
@@ -348,7 +348,7 @@ nav a:hover::before {
   font-size: 1rem;
   color: white;
   font-weight: 500;
-  border-radius: 1.375rem;
+  border-radius: 33px;
   padding: 0.8rem 1.6rem;
 }
 .blue_button img {
@@ -594,6 +594,8 @@ nav a:hover::before {
 }
 .vaultl h2 img {
   vertical-align: middle;
+  width: 32px;
+  height: 32px;
 }
 
 .vaultr {
@@ -1482,6 +1484,11 @@ details > summary {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 444px) {
+  .footer_wrapper {
+    width: 100% !important;
+  }
+}
 
 .fotterl {
   font-size: 0.5833rem;
@@ -1734,9 +1741,10 @@ a {
     display: none;
   }
   .hero_wrapper .bt_hidden {
-    display: inline-block;
-    margin-top: 1.3rem;
-    margin: 0 auto;
+    display: block;
+    margin: 30px auto;
+    padding: 1.3rem 6.6rem;
+    font-size: 1.2rem;
   }
   .hero_wrapper .hero_image {
     text-align: center;
@@ -1756,10 +1764,11 @@ a {
     display: block;
   }
   .tokenization_wrapper .slide_hide img {
-    width: 75%;
+    width: 90%;
   }
   .tokenization_wrapper .tokl p {
     max-width: 100%;
+    font-size: 1.5rem;
   }
   .tokenization_wrapper .tokl ul {
     text-align: left;
@@ -1768,6 +1777,12 @@ a {
   }
   .tokenization_wrapper .tokl button {
     margin: 2.0833rem auto;
+  }
+  .blue_button {
+    display: block;
+    margin: 30px auto;
+    padding: 1.3rem 6.6rem;
+    font-size: 1.2rem;
   }
   .smartplace_wrapper {
     flex-wrap: wrap;
@@ -1806,6 +1821,9 @@ a {
   .vaultl button {
     margin: 80px auto;
   }
+  .vaultl p {
+    font-size: 1.5rem;
+  }
   .vaultr {
     display: none;
   }
@@ -1816,7 +1834,7 @@ a {
   .gird-item img {
     display: block;
     margin: 0 auto;
-    padding: 0.625rem 0px;
+    padding: 1.625rem 0px;
   }
   .post_container {
     width: 100%;
@@ -1911,5 +1929,12 @@ a {
     height: 250px;
     overflow: hidden;
     margin: 0 auto;
+  }
+  .copy {
+    font-size: 1rem;
+  }
+  .footer_social {
+    font-size: 1rem;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

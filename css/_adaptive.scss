@@ -111,6 +111,7 @@
 }
 
 @media screen and (max-width:969px) {
+ 
 //HEADER
     .header{
     .logo img {width: 67px; height: 18px;}
@@ -136,10 +137,12 @@
         .white_button{
             display: none;
         }
-        .bt_hidden{
-            display: inline-block;
-            margin-top: 1.3rem;
-            margin: 0 auto;
+     
+        .bt_hidden {
+            display: block;
+            margin: 30px auto;
+            padding: 1.3rem 6.6rem;
+            font-size: 1.2rem;
         }
         .hero_image{
             text-align: center;
@@ -165,11 +168,12 @@
             text-align: end;
             display: block;
             img{
-                width: 75%;
+                width: 90%;
             }
         }
         .tokl p{
             max-width: 100%;
+            font-size: 1.5rem;
           
         }
 
@@ -181,9 +185,17 @@
 
         .tokl button{
             margin: 2.0833rem auto;
+            
         }
 
       
+    }
+
+    .blue_button{    
+            display: block;
+            margin: 30px auto;
+            padding: 1.3rem 6.6rem;
+            font-size: 1.2rem;
     }
     //TOKEN
 
@@ -236,6 +248,9 @@
         button{
             margin: 80px auto;
         }
+        p{
+            font-size: 1.5rem;
+        }
        }
     
        .vaultr{
@@ -250,7 +265,7 @@
        .gird-item img {
         display: block;
         margin: 0 auto;
-        padding: 0.625rem 0px;
+        padding: 1.625rem 0px;
     }
 
     //vault
@@ -384,5 +399,17 @@
         overflow: hidden;
         margin: 0 auto;
     }
+
+
+    .copy{
+        font-size: 1rem;
+    }
+
+    .footer_social{
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+   
 
 }
