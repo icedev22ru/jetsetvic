@@ -137,8 +137,9 @@
             display: none;
         }
         .bt_hidden{
-            display: block;
+            display: inline-block;
             margin-top: 1.3rem;
+            margin: 0 auto;
         }
         .hero_image{
             text-align: center;
@@ -156,6 +157,7 @@
 
         .tokr{
             text-align: center;
+            display: none;
         }
 
         .slide_hide {
@@ -168,11 +170,13 @@
         }
         .tokl p{
             max-width: 100%;
+          
         }
 
         .tokl ul{
             text-align: left;
             margin: 1rem auto;
+            font-size: 1.2rem;
         }
 
         .tokl button{
@@ -240,6 +244,7 @@
 
        .items-gird{
         grid-template-columns: 1fr 1fr;
+        font-size: 1.2rem;
        }
 
        .gird-item img {

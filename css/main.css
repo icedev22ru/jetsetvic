@@ -155,6 +155,7 @@ nav a:hover::before {
 
 .hero_image {
   text-align: right;
+  z-index: 2000;
 }
 .hero_image object {
   width: 98%;
@@ -700,7 +701,7 @@ nav a:hover::before {
 }
 
 .post__title p {
-  font-size: 0.83rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 175%;
   padding: 1.0417rem 0px 2.5rem 0px;
@@ -1480,7 +1481,6 @@ details > summary {
 .footer_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .fotterl {
@@ -1507,8 +1507,8 @@ details > summary {
 .footer_nav a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 400;
+  font-size: 0.58rem;
 }
 
 .footer_nav li:nth-child(1) {
@@ -1734,8 +1734,9 @@ a {
     display: none;
   }
   .hero_wrapper .bt_hidden {
-    display: block;
+    display: inline-block;
     margin-top: 1.3rem;
+    margin: 0 auto;
   }
   .hero_wrapper .hero_image {
     text-align: center;
@@ -1747,6 +1748,7 @@ a {
   }
   .tokenization_wrapper .tokr {
     text-align: center;
+    display: none;
   }
   .tokenization_wrapper .slide_hide {
     position: relative;
@@ -1762,6 +1764,7 @@ a {
   .tokenization_wrapper .tokl ul {
     text-align: left;
     margin: 1rem auto;
+    font-size: 1.2rem;
   }
   .tokenization_wrapper .tokl button {
     margin: 2.0833rem auto;
@@ -1808,6 +1811,7 @@ a {
   }
   .items-gird {
     grid-template-columns: 1fr 1fr;
+    font-size: 1.2rem;
   }
   .gird-item img {
     display: block;
