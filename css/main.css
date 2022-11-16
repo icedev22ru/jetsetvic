@@ -1050,7 +1050,7 @@ nav a:hover::before {
 .quest_tab_item {
   position: relative;
   list-style: none;
-  width: 33.3333rem;
+  width: 80%;
   padding: 0.8333rem 1.6667rem;
   background-color: white;
   margin-left: 4.1667rem;
@@ -1062,19 +1062,23 @@ nav a:hover::before {
 .quest_tab_item summary {
   font-weight: 500;
   font-size: 24px;
+  width: 80%;
+  display: inline;
 }
 .quest_tab_item p {
   margin-top: 0.625rem;
   font-size: 1rem;
   line-height: 234%;
 }
-.quest_tab_item details[open] .quest_tab_item::before {
-  background-image: url("../assets/images/open_tab_icon.svg");
+.quest_tab_item details summary {
+  cursor: pointer;
+  box-sizing: border-box;
 }
-@media screen and (max-width: 1281px) {
-  .quest_tab_item {
-    width: 43rem;
-  }
+.quest_tab_item details summary > * {
+  display: inline;
+}
+.quest_tab_item details[open] .quest_tab_item::before {
+  display: none;
 }
 
 .quest_tab_item::before {
@@ -1095,6 +1099,10 @@ details summary::-webkit-details-marker {
 /* Убираем стандартный маркер Firefox */
 details > summary {
   list-style: none;
+}
+
+.quest_r {
+  flex-grow: 1;
 }
 
 #footer {

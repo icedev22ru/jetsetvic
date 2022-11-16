@@ -48,7 +48,7 @@
     .quest_tab_item{
         position: relative;
         list-style: none;
-       width: 33.3333rem;
+       width: 80%;
        padding: 0.8333rem 1.6667rem ;
         background-color: white;
         margin-left:4.1667rem ;
@@ -59,6 +59,8 @@
         summary{
             font-weight: 500;
             font-size: 24px;
+            width: 80%;
+            display: inline;
         }
 
         p{
@@ -66,17 +68,20 @@
             font-size: 1rem;
             line-height: 234%;
         }
+      
+        details summary { 
+            cursor: pointer;
+            box-sizing: border-box;
+          }
+          
+          details summary > * {
+            display: inline;
+          }
 
-        details[open] {
-            .quest_tab_item::before{
-                background-image: url('../assets/images/open_tab_icon.svg');
-            }
-            
+        details[open] .quest_tab_item::before{
+           display: none;
         }
 
-        @media screen and(max-width:1281px) {
-            width: 43rem;
-        }
     
     }
 
@@ -104,3 +109,8 @@
         list-style: none;
       }
 
+
+
+      .quest_r{
+        flex-grow: 1;
+      }
