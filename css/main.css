@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Graphik";
   src: url("../assets/fonts/Graphik-Medium.ttf");
@@ -1041,6 +1042,26 @@ nav a:hover::before {
   width: 72%;
 }
 
+.quest_wrapper {
+  display: flex;
+  color: #1D2265;
+}
+
+.quest_tab_item {
+  list-style: none;
+  width: 100%;
+  background-color: white;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Убираем стандартный маркер Firefox */
+details > summary {
+  list-style: none;
+}
+
 #footer {
   position: relative;
   max-width: 100%;
@@ -1186,6 +1207,7 @@ ul {
 
 .bg_fix {
   background-color: #F8F9FB;
+  padding: 10px 0px;
 }
 
 .swiper {

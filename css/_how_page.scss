@@ -37,3 +37,25 @@
             
         }
     }
+
+
+    .quest_wrapper{
+        display: flex;
+color: $mainAccientColor;
+    }
+
+
+    .quest_tab_item{
+        list-style: none;
+       width: 100%;
+        background-color: white;
+    }
+
+    details summary::-webkit-details-marker {
+        display: none
+      }
+      /* Убираем стандартный маркер Firefox */
+      details > summary {
+        list-style: none;
+      }
+
