@@ -1,5 +1,12 @@
 .blog_l{
     flex: 10;
+    
+    @media screen and(max-width:969px) {
+      h3{
+        text-align: center;
+        font-size: 2rem;
+      }
+    }
 }
 
 .blog_r{
@@ -8,6 +15,10 @@
     h3{
         margin-left: 50px;
         margin-bottom: 50px;
+    }
+
+    @media screen and(max-width:969px) {
+        display: none;
     }
 }
 
@@ -52,6 +63,10 @@
     display: inline;
     padding: 4px 8px;
     border-radius: 3px;
+    @media screen and(max-width:969px){
+
+    display: none;
+    }
 }
 
 .short_blog_item_title{
@@ -81,6 +96,13 @@ h2{
     @media screen and(max-width:1281px){
         max-width: 504px;
     }
+    @media screen and(max-width:969px){
+
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        margin-top: 30px;
+    }
 }
 
 p{
@@ -88,7 +110,20 @@ p{
     @media screen and(max-width:1281px){
         max-width: 504px;
     }
+
+    @media screen and(max-width:969px){
+        max-width: 100%;
+       
+    }
 }
+
+@media screen and(max-width:969px) {
+  flex-wrap: wrap-reverse;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 }
 
 .blog_hero_news_item_r{
@@ -108,6 +143,10 @@ p{
 .posted_wrapper{
     display: grid;
     grid-template-columns:  1fr auto;
+      
+    @media screen and(max-width:969px) {
+        grid-template-columns:  1fr;
+    }
 }
 
 
@@ -122,6 +161,10 @@ padding: 50px 0px;
 
 .posted_r{
 min-width: 350px;
+@media screen and(max-width:969px) {
+        
+    min-width: 100%;
+}
 }
 
 h4{
@@ -150,6 +193,21 @@ ul{
 
 }
 
+
+.posted_l{
+    
+    @media screen and(max-width:969px) {
+        
+        order: 1;
+        h4{
+            margin-top: 50px;
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+}
+
+
 .posted_heading{
     display: block;
     font-size: 1.2rem;
@@ -160,6 +218,9 @@ ul{
 
 .posted_updates{
     margin-top: 3.3333rem;
+    @media screen and(max-width:969px) {
+       display: none;
+    }
 }
 
 
@@ -196,6 +257,9 @@ ul{
     flex: 1 1 auto;
     gap: 1.5417rem;
     margin-top: 50px;
+    @media screen and(max-width:969px) {
+       justify-content: center;
+    }
 }
 
 
@@ -205,6 +269,14 @@ ul{
     border-radius: 10px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.06);
     padding: 40px 24px;
+
+    @media screen and(max-width:1281px) {
+        max-width:20rem ;
+    }
+
+    @media screen and(max-width:544px) {
+        max-width:100%;
+    }
 }
 
 .news_item_image{
