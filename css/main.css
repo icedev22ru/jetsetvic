@@ -1211,6 +1211,52 @@ details > summary {
   grid-template-columns: 1fr auto;
 }
 
+#posted {
+  color: #1D2265;
+}
+#posted .posted_r {
+  min-width: 350px;
+}
+#posted h4 {
+  font-size: 1.2rem;
+}
+#posted ul {
+  list-style: none;
+  color: black;
+  font-size: 15px;
+}
+#posted ul li {
+  padding: 10px 0px;
+  border-bottom: 1px dashed #D1E7E5;
+}
+#posted ul li span {
+  float: right;
+  color: #1D2265;
+  font-weight: 500;
+}
+
+.posted_heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.posted_updates {
+  margin-top: 3.3333rem;
+}
+
+.posted_updates_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.posted_updates_item {
+  padding: 24px 24px;
+  background-color: #EDEEF2;
+  grid-column-gap: 15px;
+  border-radius: 10px;
+}
+
 #footer {
   position: relative;
   max-width: 100%;

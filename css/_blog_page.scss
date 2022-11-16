@@ -109,3 +109,63 @@ p{
     display: grid;
     grid-template-columns:  1fr auto;
 }
+
+
+#posted{
+color: $mainAccientColor;
+
+
+.posted_r{
+min-width: 350px;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+    color: black;
+    font-size: 15px;
+   
+    li{
+        padding: 10px 0px;
+        border-bottom: 1px dashed #D1E7E5;
+
+        span{
+            float: right;
+            color: $mainAccientColor;
+            font-weight: 500;
+        }
+    }
+
+}
+
+
+
+}
+
+.posted_heading{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.posted_updates{
+    margin-top: 3.3333rem;
+}
+
+
+.posted_updates_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+
+.posted_updates_item{
+    padding: 24px 24px;
+    background-color: #EDEEF2;
+    grid-column-gap: 15px;
+    border-radius: 10px;
+}
