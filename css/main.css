@@ -1004,6 +1004,37 @@ nav a:hover::before {
   width: 10%;
 }
 
+.how_hero_wrapper {
+  display: flex;
+  margin-top: 4.1667rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how_hero_title {
+  text-align: center;
+  width: 39.5833rem;
+}
+.how_hero_title p {
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+.how_hero_title button {
+  margin-top: 4.1667rem;
+  margin-bottom: 3.3333rem;
+}
+
+.how_hero_image {
+  text-align: center;
+}
+.how_hero_image object {
+  width: 98%;
+}
+.how_hero_image img {
+  width: 98%;
+}
+
 #footer {
   position: relative;
   max-width: 100%;
