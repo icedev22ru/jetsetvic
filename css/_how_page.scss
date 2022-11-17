@@ -172,6 +172,9 @@ flex-grow: 1;
                 background-image: url('../assets/images/arrow_tab_gray.svg');
                 background-repeat: no-repeat;
             }
+            &:first-child{
+                margin-top: 0px;
+            }
         }
 }
 

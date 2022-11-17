@@ -1291,6 +1291,9 @@ details[open] summary::after {
   background-image: url("../assets/images/arrow_tab_gray.svg");
   background-repeat: no-repeat;
 }
+.quest_tabs a:first-child {
+  margin-top: 0px;
+}
 
 .active_tab {
   border: 1px solid #1C2264 !important;
