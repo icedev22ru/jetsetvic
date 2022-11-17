@@ -194,31 +194,6 @@ var actives = document.getElementsByClassName('smart_button_active');
   /*TABS*/
 
 
-  /*TABS_MOBILE*/
-  const m_tab_buttons = document.querySelectorAll('.m_tab_button');
-  const m_dropdown = document.getElementsByClassName('quest_dropdown_menu');
-  const m_dropdown_btn = document.getElementsByClassName('quest_dropdown');
-  const m_active_tabs = document.getElementsByClassName('tab_data_active');
- 
-  m_dropdown_btn[0].addEventListener('click',function(){
-    m_dropdown[0].style.display = 'block';
-  });
-
-  m_tab_buttons.forEach(function(item){
-    item.addEventListener('click',function(){
-      m_dropdown[0].style.display = '';
-      let cur_btn = item;
-      let tabid = cur_btn.getAttribute('data-tab');
-      let cur_tab = document.querySelector(tabid);
-      active_tabs[0].classList.remove('tab_data_active');
-      cur_tab.classList.add('tab_data_active');
-    });
-
-  });
-
- 
-  /*TABS_MOBILE*/
-
  /*AOS*/
  AOS.init();
  /*AOS*/

@@ -1204,6 +1204,11 @@ nav a:hover::before {
 .quest_tab_item details summary > * {
   display: inline;
 }
+@media screen and (max-width: 969px) {
+  .quest_tab_item {
+    margin-left: 0px;
+  }
+}
 
 #quest {
   padding-bottom: 4.1667rem;
