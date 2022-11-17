@@ -8,7 +8,7 @@ display: flex;
 justify-content: center;
 
 p{
-    font-weight: 400;
+    font-weight: 200;
     max-width: 890px;
     @media screen and (min-width: 969px) {
         font-size: 1rem;
@@ -59,6 +59,7 @@ h4{
         max-width: 33.4167rem;
         margin-top: 1.25rem;
         font-size: 1rem;
+        font-weight: 200;
     }
 
     button{
@@ -116,7 +117,7 @@ h4{
 
 .instant_page_hero_ul{
 font-size: 1rem;
-font-weight: 400;
+font-weight: 200;
 line-height: 1.25rem;
 letter-spacing: -0.02em;
 text-align: left;

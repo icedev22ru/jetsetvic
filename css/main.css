@@ -147,6 +147,7 @@ nav a:hover::before {
 .hero_title p {
   margin-top: 1.25rem;
   width: 35.8333rem;
+  font-weight: 200;
 }
 .hero_title button {
   margin-top: 4.1667rem;
@@ -222,7 +223,7 @@ nav a:hover::before {
 
 .smartplace_page_hero_ul {
   margin-left: 0.8333rem;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 0.9rem;
   line-height: 125%;
   text-align: left;
@@ -230,7 +231,7 @@ nav a:hover::before {
 
 .smartplace_page_hero_p {
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.25rem;
   letter-spacing: -0.02em;
   text-align: left;
@@ -256,7 +257,7 @@ nav a:hover::before {
 }
 .tokl ul {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 200;
   max-width: 32.25rem;
   margin-top: 1.6667rem;
   padding: 0px 0.9583rem;
@@ -781,6 +782,7 @@ nav a:hover::before {
   font-size: 1.2rem;
   max-width: 30.4167rem;
   margin-top: 1.25rem;
+  font-weight: 200;
 }
 .contract_l button {
   margin-top: 2rem;
@@ -827,7 +829,7 @@ nav a:hover::before {
   justify-content: center;
 }
 .instant_wrapper p {
-  font-weight: 400;
+  font-weight: 200;
   max-width: 890px;
 }
 @media screen and (min-width: 969px) {
@@ -877,6 +879,7 @@ nav a:hover::before {
   max-width: 33.4167rem;
   margin-top: 1.25rem;
   font-size: 1rem;
+  font-weight: 200;
 }
 .instant_contract_l button {
   margin-top: 2rem;
@@ -932,7 +935,7 @@ nav a:hover::before {
 
 .instant_page_hero_ul {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.25rem;
   letter-spacing: -0.02em;
   text-align: left;
