@@ -167,6 +167,9 @@ var actives = document.getElementsByClassName('smart_button_active');
 }
   /*PRALAX*/
 
+  /*AOS*/
+ AOS.init();
+ /*AOS*/
 
 
   /*TABS*/
@@ -194,6 +197,33 @@ var actives = document.getElementsByClassName('smart_button_active');
   /*TABS*/
 
 
- /*AOS*/
- AOS.init();
- /*AOS*/
+  /*MOBILE TABS*/ 
+  const m_tabs_button = document.querySelectorAll('.m_tab_button'); //кнопки
+  const m_active_data_tabs = document.getElementsByClassName('tab_data_active'); //табы
+  const m_tabs_menu = document.getElementsByClassName('quest_dropdown_menu'); // меню
+  const m_tabs_holder_menu = document.getElementsByClassName('quest_dropdown'); // кнопка меню
+
+  m_tabs_holder_menu[0].addEventListener('click',function(){
+    m_tabs_menu[0].classList.toggle('drop_hidden');
+    
+  });
+
+  m_tabs_button.forEach(function(m_btn){
+    m_btn.addEventListener('click',function(){
+      let item = m_btn;
+      let m_tabid = item.getAttribute('data-tab'); // data-tab
+      let cur_tab = document.querySelector(m_tabid); // выбранный таб
+
+      m_active_data_tabs[0].classList.remove('tab_data_active');
+      cur_tab.classList.add('tab_data_active');
+      m_tabs_menu[0].classList.toggle('drop_hidden');
+      m_tabs_holder_menu[0].innerHTML = item.innerHTML;
+      
+    });
+  });
+
+  
+
+  /*MOBILE TABS*/ 
+
+ 

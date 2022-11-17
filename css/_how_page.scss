@@ -150,6 +150,7 @@ flex-grow: 1;
 
 
 .quest_tabs{
+    white-space: nowrap;
         a{
             position: relative;
             display: block;
@@ -197,7 +198,7 @@ flex-grow: 1;
       /*quest_dropdown*/
 
       .quest_dropdown{
-        position: relative;
+        display: block;
         text-align: left;
         border: 1px solid #E3E4EA;
         border-radius: 10px;
@@ -223,16 +224,24 @@ flex-grow: 1;
       }
 
 
+      .dropdown_wrapper{
+        position: relative;
+        text-align: left;
+      }
+
       .quest_dropdown_menu{
         position: absolute;
+        display: block;
         z-index: 10;
         left: 0;
         margin-top: 20px;
-        display: none;
         background-color: white;
-        width: 96.7%;
         border: 1px solid #E3E4EA;
         border-radius: 10px;
+        width: 96.5%;
+        left: 50%;
+        top: 70%;
+        transform: translateX(-50%);
         padding-left: 24px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -245,5 +254,11 @@ flex-grow: 1;
             font-weight: 400;
         }
       }
+
+      .drop_hidden{
+        display: none;
+      }
+
+
 
       /*DROPDOWN*/
