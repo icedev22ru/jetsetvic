@@ -26,15 +26,34 @@
     border-radius: 10px;
     padding: 1.6667rem;
     margin-top: 1.75rem;
+    @media screen and(max-width:969px) {
+        flex-direction: column;
+    }
 }
 
 .post_image{
     transform: translatex(-3.3333rem);
+    flex: 1;
     img{
-        object-fit: contain;
-        width: 100%;
-        border-radius: 0.4167rem;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 0.4167rem;
+    @media screen and(max-width:969px) {
+        height:400px;
+     }
+
+     @media screen and(max-width:544px) {
+        height:200px;
+     }
     }
+    @media screen and(max-width:969px) {
+       transform: none;
+    }
+}
+
+.post_data{
+    flex: 2;
 }
 
 .post__date{

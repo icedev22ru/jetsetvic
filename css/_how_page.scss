@@ -69,12 +69,18 @@
             width: 100%;
             display: inline;
             border-bottom:1px solid #E3E4EA;
+            @media screen and(max-width:544px) {
+                font-size: 1.2rem;
+            }
         }
 
         p{
             margin-top: 0.625rem;
             font-size: 1rem;
             line-height: 234%;
+            @media screen and(max-width:544px) {
+                font-size: 1.2rem;
+            }
         }
       
         details summary { 
@@ -172,10 +178,13 @@ flex-grow: 1;
                 background-image: url('../assets/images/arrow_tab_gray.svg');
                 background-repeat: no-repeat;
             }
+
             &:first-child{
                 margin-top: 0px;
             }
+           
         }
+
 }
 
           .active_tab {
