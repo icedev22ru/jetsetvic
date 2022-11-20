@@ -12,6 +12,9 @@
     z-index: 2000;
     margin-top: 40px;
     padding: 50px 0px;
+    @media screen and (max-width:968px) {
+       margin-top: 0px;
+    }
 }
 
 
@@ -65,20 +68,19 @@
     position: relative;
     align-items: center;
     margin-top: 15px;
+    font-size: 0.6rem;
     img{
         float: left;
         vertical-align: middle;
         border-radius: 100px;
     }
     span{
-        font-size: 0.8rem;
        margin-left: 10px;
        font-weight: 300;
     }
 
     i{
         font-style: normal;
-        font-size: 0.8rem;
         font-weight: 300;
         margin-left: 10px;
         &::before{
@@ -92,7 +94,13 @@
             background-position: center;
         }
     }
-    
+    @media screen and (max-width:1281px) {
+        font-size: 0.9rem;
+    }
+
+    @media screen and (max-width:544px) {
+        font-size: 1.2rem;
+    }
 }
 
 .blog_hero_news_item{
@@ -111,13 +119,23 @@ h2{
 p{
     max-width: 900px;
     font-weight: 300;
+    margin-top: 0.625rem;
+    @media screen and(max-width:1601px){
+        width: 635px;
+    }
+
     @media screen and(max-width:1281px){
-        max-width: 504px;
+        width: 504px;
     }
 
     @media screen and(max-width:969px){
-        max-width: 100%;
+        width: 100%;
        
+    }
+
+    @media screen and (max-width:544px){
+    text-align: left;
+    font-size: 1.4rem;
     }
 }
 
@@ -126,6 +144,10 @@ p{
   text-align: center;
   justify-content: center;
   margin-top: 30px;
+}
+
+@media screen and (max-width:544px){
+    text-align: left;
 }
 
 }
@@ -139,19 +161,44 @@ p{
         font-size: 1.3rem;
         font-weight:500 ;
         margin-top: 10px;
+        @media screen and (max-width:544px) {
+        font-size: 2rem;
+        }
     }
+   
 }
 
 .blog_hero_news_item_r{
-    text-align: center;
+    text-align: right;
     margin-right: 10px;
     z-index: 2000;
     img{
-        width: 85%;
         height: 400px;
         object-fit: contain;
         border-radius: 10px;
+        @media screen and (max-width:1401px) {
+            width: 85%;
+        }
+
+        @media screen and (max-width:969px) {
+            width: 100%;
+        }
+
+        @media screen and (max-width:544px) {
+            height: 100%;
+        }
      }
+
+     @media screen and (max-width:969px) {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    @media screen and (max-width:544px) {
+        text-align: center;
+        margin-right: 0px;
+    }
+   
 }
 
 
@@ -280,16 +327,15 @@ ul{
 
 
 .news_item{
-    max-width: 25rem;
+    max-width: 46%;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.06);
     
-
-    @media screen and(max-width:1281px) {
-        max-width:20rem ;
+    @media screen and(max-width:969px) {
+        max-width:80%;
     }
-
+    
     @media screen and(max-width:544px) {
         max-width:100%;
     }
@@ -302,6 +348,17 @@ ul{
         text-align: center;
         object-fit: cover;
         height: 376px;
+        @media screen and(max-width:1281px) {
+            height: 250px;
+        }
+
+        @media screen and(max-width:968px) {
+            height: 400px;
+        }
+
+        @media screen and(max-width:544px) {
+            height: 200px;
+        }
     }
 
 }
@@ -326,6 +383,9 @@ ul{
         font-size: 15px;
         color: #555555;
         margin-top: 20px;
+        @media screen and(max-width:544px){
+            font-size: 1.4rem;
+        }
     }
     a{
         color: $mainAccientColor;
@@ -333,6 +393,9 @@ ul{
         font-weight: 500;
         display: block;
         line-height: 140%;
+        @media screen and(max-width:544px){
+            font-size: 2rem;
+        }
     }
 }
 
@@ -351,6 +414,7 @@ ul{
         margin-left: 10px;
     }
     i{
+        display: block;
         font-style: normal;
         &::before{
             display: inline-block;
@@ -365,6 +429,14 @@ ul{
             fill: red;
         }
     
+    }
+
+    @media screen and (max-width:1281px) {
+        font-size: 0.9rem;
+    }
+
+    @media screen and (max-width:544px) {
+        font-size: 1.2rem;
     }
 }
 

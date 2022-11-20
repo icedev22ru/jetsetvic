@@ -129,6 +129,9 @@ align-items: center;
         margin-top: 1.25rem;
         width: 35.8333rem;
         font-weight: 200;
+        @media screen and (max-width:1281px) {
+            width: 40rem;
+        }
     }
     button{
         margin-top: 4.1667rem;
