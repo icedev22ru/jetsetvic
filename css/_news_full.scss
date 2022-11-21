@@ -10,12 +10,38 @@ a{
     color: $mainAccientColor;
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 50px;
 }
 
 p{
     color: #555555;
     font-size: 15px;
+    margin-top: 30px;
+    width: 80%;
+    @media screen and(max-width:969px) {
+        width: 100%;
+    }
 }
 
 }
+
+
+.news_full_image img{
+    width: 70%;
+    margin-top: 30px;
+    @media screen and(max-width:969px) {
+        width: 100%;
+    }
+}
+
+
+.posted_r{
+    @media screen and(max-width:969px) {
+      margin-top: 50px;
+    }
+    @media screen and(max-width:544px) {
+        display: none;
+    }
+}
+
 

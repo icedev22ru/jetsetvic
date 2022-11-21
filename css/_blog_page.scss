@@ -219,7 +219,7 @@ background-image: url('../assets/images/wawe_middle.svg');
 background-repeat: no-repeat;
 background-size: 100%;
 background-position: center;
-padding: 50px 0px;
+padding: 120px 0px;
 
 
 .posted_r{
@@ -252,7 +252,10 @@ ul{
 
 }
 
-
+@media screen and(max-width:544px) {
+        
+   padding-top: 0px;
+}
 
 }
 
@@ -316,6 +319,7 @@ ul{
 
 .news_wrapper{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     flex: 1 1 auto;
     gap: 1.5417rem;
@@ -347,18 +351,6 @@ ul{
         width: 100%;
         text-align: center;
         object-fit: cover;
-        height: 376px;
-        @media screen and(max-width:1281px) {
-            height: 250px;
-        }
-
-        @media screen and(max-width:968px) {
-            height: 400px;
-        }
-
-        @media screen and(max-width:544px) {
-            height: 200px;
-        }
     }
 
 }
@@ -468,3 +460,30 @@ ul{
     color: white;
     background-color: $mainAccientColor;
 }
+
+
+.pagination_tab{
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    a{
+        color: #666666;
+        border: 1px solid #C4C4C4;
+        padding: 0.5417rem 0.6667rem;
+        border-radius: 3px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    strong{
+        border: 1px solid #C4C4C4;
+        padding: 0.5417rem 0.6667rem;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    @media screen and (max-width: 969px) {
+        left: initial;
+    }
+}
+   
