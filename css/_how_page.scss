@@ -28,19 +28,23 @@
     
     
 .how_hero_image{
-        position: relative;
+        
         text-align: center;
         z-index: 2000;
         img{
             width: 98%;
         }
-        iframe{
+        video{
+            background: white;
             position: absolute;
-            right: 13.3%;
-            bottom: 11%;
-            width: 72%;
-            height: 87%;
+            right: 13.5%;
+            bottom: 11.1%;
+            width: 71.7%;
+            height: 86%;
+            border-radius: 10px;
+            will-change: transform, opacity;
         }
+
     }
 
 

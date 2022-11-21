@@ -202,7 +202,7 @@ var actives = document.getElementsByClassName('smart_button_active');
   const m_active_data_tabs = document.getElementsByClassName('tab_data_active'); //табы
   const m_tabs_menu = document.getElementsByClassName('quest_dropdown_menu'); // меню
   const m_tabs_holder_menu = document.getElementsByClassName('quest_dropdown'); // кнопка меню
-
+  if(m_tabs_holder_menu.length > 0){
   m_tabs_holder_menu[0].addEventListener('click',function(){
     m_tabs_menu[0].classList.toggle('drop_hidden');
     
@@ -222,8 +222,21 @@ var actives = document.getElementsByClassName('smart_button_active');
     });
   });
 
-  
+}
 
   /*MOBILE TABS*/ 
 
- 
+ /*TOP NAV*/
+ let top_nav = document.getElementById('top_nav');
+ console.log(top_nav);
+ if(top_nav  != null){
+ window.addEventListener('scroll',e=>{
+  if(scrollY > 400){
+    console.log(scrollY);
+    top_nav.style.display = 'block';
+  }else{
+    top_nav.style.display = 'none';
+  }
+ });
+}
+ /*TOP NAV*/
