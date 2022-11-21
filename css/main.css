@@ -2241,10 +2241,11 @@ a {
 }
 
 #top_nav {
-  background-color: #1E2569;
+  background-color: #1D2265;
   position: fixed;
   z-index: 5000;
   width: 100%;
+  display: none;
   /* padding: 0px 50px; */
 }
 

@@ -115,10 +115,11 @@ a{text-decoration: none;}
 
 
 #top_nav{
-        background-color: #1E2569;
+        background-color: $mainAccientColor;
         position: fixed;
         z-index: 5000;
         width: 100%;
+        display: none;
         /* padding: 0px 50px; */
 }
 
