@@ -228,11 +228,9 @@ var actives = document.getElementsByClassName('smart_button_active');
 
  /*TOP NAV*/
  let top_nav = document.getElementById('top_nav');
- console.log(top_nav);
  if(top_nav  != null){
  window.addEventListener('scroll',e=>{
   if(scrollY > 400){
-    console.log(scrollY);
     top_nav.style.display = 'block';
   }else{
     top_nav.style.display = 'none';
