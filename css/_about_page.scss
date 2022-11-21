@@ -153,9 +153,8 @@
     }
 }
 
-
 #contact_form{
-    padding: 100px 0px;
+    margin: 50px 0px;
 }
 
 .contact_wrapper{
@@ -193,7 +192,7 @@ color: $mainAccientColor;
 }
 
 @media screen and(max-width:544px) {
-    padding-bottom: 80px;
+    padding-bottom: 3.3333rem;
 }
 }
 
@@ -212,6 +211,10 @@ color: $mainAccientColor;
     .input_button{
         display: block;
         border: none;
+        -webkit-border-fit:border !important;
+        -webkit-appearance: none;
+        outline: none; /* for good measure */
+        overflow: visible; /* removes extra side padding in IE */
         padding: 15px 56px;
         border-radius: 33px;
         background-color: $mainAccientColor;
@@ -220,8 +223,10 @@ color: $mainAccientColor;
         font-weight: 500;
         margin-left: auto;
         margin-top: 100px;
+        cursor: pointer;
         @media screen and(max-width:544px) {
             margin: 50px auto;
+            font-size: 1.5rem;
         }
     }
 
@@ -231,6 +236,7 @@ color: $mainAccientColor;
        border-bottom: 1px solid #E1E1E1;
        font-size: 1rem;
        height: 31px;
+       resize: vertical;
     }
 
     label{
@@ -238,10 +244,14 @@ color: $mainAccientColor;
         font-size: 1rem;
         font-weight: 500;
         color: $mainAccientColor;
+        @media screen and(max-width:544px) {
+            font-size: 1.5rem;
+           }
     }
 
 
     @media screen and(max-width:544px) {
      padding: 0;
+     font-size: 1.5rem;
     }
 }
